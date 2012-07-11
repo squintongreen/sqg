@@ -1,0 +1,18 @@
+*.docx   diff=astextplain
+*.DOCX   diff=astextplain
+
+*.jpg    binary
+*.png    binary
+*.psd    binary
+*.ai     binary
+
+*.cs     text=auto diff=csharp 
+*.java   text=input
+*.html   text=input
+*.css    text=input
+*.js     text=input
+*.sql    text=input
+*.php    text=input
+
+*.csproj text=auto merge=union 
+*.sln    text=auto eol=crlf merge=union

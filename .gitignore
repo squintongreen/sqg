@@ -1,0 +1,12 @@
+# EVERYTHING IN ROOT FOR NOW #
+##############################
+src/
+hire/
+javascripts/
+stylesheets/
+images/
+
+robots.txt
+humans.txt
+squintongreen.sublime-project
+squintongreen.sublime-workspace
