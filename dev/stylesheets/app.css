@@ -1,0 +1,119 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/*	--------------------------------------------------
+	:: Navigation Styles
+	-------------------------------------------------- */
+	nav 				{margin-left:0 !important;}
+	nav ul li  			{list-style:none;float:left;}
+	nav ul li a 		{
+							font-family: "futura-pt", "Helvetica Neue", Helvetica, sans-serif;
+							font-weight:500;
+							font-size:16px;
+							font-size:1.6rem;
+							line-height:54px;
+							letter-spacing:1px;
+							color:#ccc;
+							text-decoration:none;
+						}
+	nav ul li a:hover 	{
+							color:rgba(11,13,15,0.90);
+							text-decoration:none;
+						}
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+	body 				{background:#f3f6f9;}
+	header 				{padding-top:54px;}
+	footer 				{padding-bottom:54px;}
+	footer > div > div 	{padding-top:36px;border-top:1px solid #ccc;}
+	footer a 			{font-weight:700;color:#ccc;}
+	
+	.island 			{padding-top:36px;}
+
+/*	--------------------------------------------------
+   Misc Styles
+-------------------------------------------------- */
+
+	.thin 				{font-weight:100;}
+	.thick 				{font-weight:700;}
+	.active 			{color:rgba(11,13,15,0.90);}
+	.inactive 			{text-decoration:line-through;cursor: default;}
+	.inactive:hover 	{text-decoration:line-through;cursor: default;}
+
+	.well 		{padding:18px 10px;}
+	.well-deep 	{padding:18px 20px;}
+	.well-right {padding:18px 10px 0 0;}
+	.well-left 	{padding:18px 0 0 10px;}
+
+/* -----------------------------------------
+   Work
+----------------------------------------- */
+
+	.block-grid li 		{position:relative;}
+	.hover-info 		{
+							position:absolute;
+							top:0; left:0; right:0;
+							width:100%;height:100%;
+							background:rgba(11,13,15,0.90);
+						}
+	.hover-info p 		{margin-top:36px;padding-left:20px;color:#f3f6f9;font-weight:500;text-shadow:1px 1px 1px rgba(0,0,0,0.15);}
+	.hover-info a 		{display:block;padding:7px 20px 10px;width:12%;color:#f3f6f9;font-size:1.4rem;font-weight:700;}
+	.hover-info a:hover {-webkit-transition:0.5s all ease;-moz-transition:0.5s all ease;transition:0.5s all ease;padding-left:30px;}
+
+/* -----------------------------------------
+   Projects
+----------------------------------------- */
+	
+	.project-title 		{border-bottom:1px solid #ccc;}
+	.project-description{padding:18px 0;border-bottom:1px solid #ccc;}
+
+	#project-nav 		{}
+	#project-nav .block-grid.three-up > li:first-child 			{background:#f3f6f9;color:#333;}
+	#project-nav .block-grid.three-up > li 						{background:rgba(11,13,15,0.90);color:#f3f6f9;width:212px;height:212px;}
+	#project-nav .block-grid.three-up li div ul 				{margin-left:0 !important;}
+
+/* -----------------------------------------
+   Profile
+----------------------------------------- */
+	
+	.content 			{margin-left:0;}
+	#hello hgroup 		{padding-top:18px;}
+	#skills .content 	{padding-top:54px; border-top:1px solid #ccc;}
+
+/* -----------------------------------------
+   Contact
+----------------------------------------- */
+	
+	a.email 			{
+							font-size: 24px;
+							font-size: 2.4rem;
+							margin-bottom: 12px;
+							font-family: "futura-pt", "Helvetica Neue", Helvetica, sans-serif;
+							font-weight:500;
+							line-height:54px;
+							color:rgba(11,13,15,0.90);
+							border-bottom:3px solid rgba(11,13,15,0.90);
+						}
+	a.email:hover 		{color:#2799ef;border-bottom:3px solid #2799ef;}
+	
+	#other 				{padding-top:90px;}
+	#other .head 		{padding-top:18px;}
+	#other a 			{color:#f3f6f9;}
+	#other a:hover 		{text-decoration:underline;}
+	#other .block-grid.three-up > li:first-child 			{background:#f3f6f9;color:#333;}
+	#other .block-grid.three-up > li 						{background:rgba(11,13,15,0.90);color:#f3f6f9;width:212px;height:212px;}
+	#other .block-grid.three-up li div ul 					{margin-left:0 !important;}
+
+
+

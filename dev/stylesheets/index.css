@@ -1,0 +1,17 @@
+/* -------------------------------------------------- 
+    Table of Contents
+-----------------------------------------------------
+:: Typography
+*/
+
+
+/*	--------------------------------------------------
+	:: Typography Styles
+	-------------------------------------------------- */
+	
+	#intro hgroup 		{padding-bottom:72px;}
+	#intro h1 			{display:inline-block;line-height:1em;color:#333537;}
+	#intro p 			{font-size:13px;font-size:1.3rem;font-weight:300;line-height:1.5em;color:#9da0a3;}
+	#intro p a 			{border-bottom:2px solid #2799ef;}
+
+
