@@ -30,6 +30,8 @@
 	.row .ten.columns { width: 82.6%; }
 	.row .eleven.columns { width: 91.3%; }
 	.row .twelve.columns { width: 100%; }
+
+	.row .pull-one 			{ margin-left: -6.56%;margin-right: 6.56%;}
 	
 	.row .offset-by-half	{ margin-left: 6.56%;  }
 	.row .offset-by-one 	{ margin-left: 13.1%;  }

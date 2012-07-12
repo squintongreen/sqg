@@ -35,8 +35,9 @@
 
 	body 				{background:#f3f6f9;}
 	header 				{padding-top:54px;}
+	section > div 		{margin-left:23.94% !important;}
 	footer 				{padding-bottom:54px;}
-	footer > div > div 	{padding-top:36px;border-top:1px solid #ccc;}
+	footer > .island > div 	{margin-left:23.94% !important;padding-top:36px;border-top:1px solid #ccc;}
 	footer a 			{font-weight:700;color:#ccc;}
 	
 	.island 			{padding-top:36px;}
@@ -75,6 +76,8 @@
    Projects
 ----------------------------------------- */
 	
+	#project-slide div	{margin-left:0 !important;}
+
 	.project-title 		{border-bottom:1px solid #ccc;}
 	.project-description{padding:18px 0;border-bottom:1px solid #ccc;}
 
