@@ -77,8 +77,8 @@
 /*	--------------------------------------------------
 	:: Links
 	-------------------------------------------------- */
-	a { color: #2a85e8; text-decoration: none; outline: 0; line-height: inherit; }
-	a:hover { color: #11639d; }
+	a { color: #333; text-decoration: none; outline: 0; line-height: inherit; }
+	a:hover { color: #2799ef; }
 	p a, p a:visited { line-height: inherit; }
 	
 

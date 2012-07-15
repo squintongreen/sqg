@@ -37,7 +37,7 @@
   <script type="text/javascript" charset="utf-8">
     $(window).load(function() {
       $('.flexslider').flexslider({
-        slideshow: false,
+        slideshow: true,
         slideshowSpeed: 6000,
         animationDuration: 300,
         keyboardNav: true
@@ -48,9 +48,9 @@
       var trigger = $('.block-grid li');
       $(info).hide();
       $(trigger).mouseenter(function(){
-        $(this).children('.hover-info').fadeIn(500);
+        $(this).children('.hover-info').fadeIn(350);
       }).mouseleave(function(){
-        $(this).children('.hover-info').fadeOut(500);
+        $(this).children('.hover-info').fadeOut(350);
       });
     });
   </script>
@@ -63,7 +63,7 @@
         <div class="four phone-four columns">
           <a href="index.html">
           <!-- Not quite the 'Konami Code' -->
-          <img src="images/shapes.png" alt="circle, triangle, square" title="sqg" />
+          <img src="images/shapes-light.png" alt="circle, triangle, square" title="sqg" />
           </a>
         </div><!-- /three -->
         <nav class="eight phone-four columns">
@@ -84,39 +84,32 @@
         </nav><!-- /seven -->
     </div><!-- /row -->
   </header>
+</div><!-- /container -->
 
-  <section id="project-slide" class="row island">
-    <div class="twelve phone-four columns">
-      <div class="flex-container">
-        <div class="flexslider">
-          <ul class="slides">
-            <li>
-              <img src="images/modern/full/solo-soundcloud.png" alt="big ole icons" title="sound cloud" />
-            </li>
-            <li>
-              <img src="images/modern/full/solo-devices.png" alt="big ole icons" title="mobile devices" />
-            </li>
-            <li>
-              <img src="images/modern/full/solo-clouddocs.png" alt="big ole icons" title="cloud documents" />
-            </li>
-            <li>
-              <img src="images/modern/full/solo-cofeetalk.png" alt="big ole icons" title="coffee talk" />
-            </li>
-            <li>
-              <img src="images/modern/full/solo-housemouse.png" alt="big ole icons" title="mouse house" />
-            </li>
-          </ul><!-- /slides -->
-        </div><!-- /flexslider -->
-      </div><!-- /flex-container -->
-    </div><!-- /twelve -->
-  </section><!-- /work -->
+<section id="project-slide" class="row island">
+  <div class="twelve phone-four columns">
+    <div class="flex-container">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="images/scan/full/scan-assets.png" alt="ScanShowSell branding, website, mobile site" title="ScanShowSell" />
+          </li>
+          <li>
+            <img src="images/scan/full/scan-home.png" alt="ScanShowSell website" title="ScanShowSell" />
+          </li>
+        </ul><!-- /slides -->
+      </div><!-- /flexslider -->
+    </div><!-- /flex-container -->
+  </div><!-- /twelve -->
+</section><!-- /work -->
 
+<div class="container">
   <section id="project-info" class="row island">
-    <div class="project-title eight phone-four columns offset-by-three">
+    <div class="project-title nine phone-four columns offset-by-three">
       <h4>scanshowsell</h4>
       <small class="right">branding, mobile &amp; desktop web</small>
     </div><!-- /project-title -->
-    <div class="project-description eight phone-four columns offset-by-three">
+    <div class="project-description nine phone-four columns offset-by-three">
       <div class="row">
         <div class="six columns">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiutsmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Do eiutsmod tempor incididunt ut labore. Ullamco laboris nisi ut aliquip ex ea commodo. Ut enim ad minim veniam, quis nostrud exercitation.
@@ -131,11 +124,11 @@
   </section>
 
   <section id="project-nav" class="row island">
-    <div class="wrap eight phone-four columns offset-by-three">
+    <div class="wrap nine phone-four columns offset-by-three">
       <ul class="block-grid three-up">
         <li>
           <div class="well-right">
-            <p><strong><a href="work.html">all projects.</a></strong></p>
+            <p><strong><a href="work.html">&larr;&nbsp;&nbsp;all projects</a></strong></p>
           </div>
         </li>
         <li>
@@ -161,7 +154,7 @@
 
   <footer>
     <div class="row island">
-      <div class="eight phone-four columns offset-by-three">
+      <div class="nine phone-four columns offset-by-three">
         <a href="mailto:hi@squintongreen.com">hi@squintongreen.com</a>
       </div>
     </div><!-- /row -->
