@@ -7,7 +7,7 @@
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 48px; font-size: 4.8rem; margin-bottom: 12px; font-family: "futura-pt", "Helvetica Neue", Helvetica, sans-serif; font-weight:500;}
 	h2 { font-size: 30px; font-size: 3.0rem; margin-bottom: 36px; font-family:"futura-pt", "Helvetica Neue", Helvetica, sans-serif; font-weight:400;}
-	h3 { font-size: 20px; font-size: 2.0rem; margin-bottom: 12px; font-family: "futura-pt", "Helvetica Neue", Helvetica, sans-serif; font-weight:500;}
+	h3 { font-size: 23px; font-size: 2.3rem; margin-bottom: 36px; font-family: "futura-pt", "Helvetica Neue", Helvetica, sans-serif; font-weight:400;}
 	h4 { font-size: 18px; font-size: 1.8rem; margin-bottom: 9px; font-family:"brandon-grotesque", "Helvetica Neue", Helvetica, sans-serif; font-weight:400; letter-spacing:1px; font-variant:small-caps; display:inline-block;}
 	h5 { font-size: 12px; font-size: 1.2rem; margin-bottom:9px; line-height:2; font-weight:600; color:#232323; display: inline-block; }
 	h6 { font-size: 14px; font-size: 1.4rem; font-weight:normal; font-variant:small-caps; padding:5px 20px 10px; margin:-108px auto 0; width:13%; letter-spacing:1px; color:#afafaf; background:rgb(21,23,25); }

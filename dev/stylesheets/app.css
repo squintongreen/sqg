@@ -105,12 +105,25 @@
    Profile
 ----------------------------------------- */
 	
-	.content 			{margin-left:0;}
-	#values 			{border-bottom:1px solid #ccc;background:url('../images/profile-photo.jpg') right bottom no-repeat;height:296px;}
-	#values > div 		{margin-left:0 !important;}
-	#values hgroup 		{padding-top:126px;}
-	#hello 				{padding-top:36px;}
-	#skills .content 	{padding-top:54px; border-top:1px solid #ccc;}
+	#hello 				{margin-bottom:-1px;background:url('../images/profile-photo.jpg') 600px bottom no-repeat;height:504px;}
+	#hello > div 		{padding-top:36px;}
+	#hello p 			{max-width:380px;}
+	
+	#services .content 	{padding:36px 0 36px; border-top:1px solid #ccc;}
+	#services .content > div > div 								{padding-top:18px;}
+	#services .block-grid.three-up li 							{width:33.3%;}
+	#services .shape-wrap										{background:rgba(11,13,15,0.95);position:relative;width:100%;height:241px;}
+	#services .shape-wrap img									{padding:17% 0 0 17%;}
+
+	.service-list 		{margin:18px 0 0 0;padding-top:18px;}
+	.service-list li 	{margin-bottom:9px !important;width:100% !important;}
+	.service-list li p:first-child {color:#434343;}
+	.service-list li p 	{margin:0 !important;color:#555;}
+
+	#values 			{height:376px;background:url('../images/bg-photo.jpg') center center no-repeat;}
+	#values > div > div {margin-left:6%;}
+	#values hgroup 		{padding-top:82px;}
+	#values hgroup h3 	{color:#f3f6f9;}
 
 /* -----------------------------------------
    Contact
@@ -133,7 +146,7 @@
 	#other a 			{color:#f3f6f9;}
 	#other a:hover 		{text-decoration:underline;}
 	#other .block-grid.three-up > li:first-child 			{background:#f3f6f9;color:#333;}
-	#other .block-grid.three-up > li 						{background:rgba(11,13,15,0.90);color:#f3f6f9;height:241px;}
+	#other .block-grid.three-up > li 						{background:rgba(11,13,15,0.95);color:#f3f6f9;height:241px;}
 	#other .block-grid.three-up li div ul 					{margin-left:0 !important;}
 
 
