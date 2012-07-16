@@ -21,7 +21,7 @@
 							font-size:1.6rem;
 							line-height:54px;
 							letter-spacing:1px;
-							color:#ccc;
+							color:#a1a3a5;
 							text-decoration:none;
 						}
 	nav ul li a:hover 	{
@@ -34,15 +34,16 @@
 ----------------------------------------- */
 
 	body 				{background:#f3f6f9;}
-	header 				{padding-top:54px;}
+	header 				{padding:36px 0 18px;}
 	section > div 		{margin-left:23.94% !important;}
-	footer 				{padding-bottom:54px;}
-	footer > .island > div 	{margin-left:23.94% !important;padding-top:36px;border-top:2px solid #232323;}
-	footer a 			{font-weight:700;color:#ccc;}
+	footer 				{padding:18px 0 54px;}
+	footer > .island > div 	{margin-left:23.94% !important;padding-top:36px;border-top:3px solid #232323;}
+	footer a 			{font-weight:700;color:#a1a3a5;}
 	
-	.island 			{padding-top:36px;}
+	.island.a 			{padding-top:36px;}
+	.island.b 			{padding-top:18px;}
 
-/*	--------------------------------------------------
+/* --------------------------------------------------
    Misc Styles
 -------------------------------------------------- */
 
@@ -58,10 +59,21 @@
 	.well-left 	{padding:18px 0 0 10px;}
 
 /* -----------------------------------------
+   Index Styles
+----------------------------------------- */
+	
+	#intro 				{padding-top:36px;}
+	#intro hgroup 		{padding-bottom:72px;}
+	#intro h1 			{display:inline-block;line-height:1em;color:#333537;}
+	#intro p 			{font-size:13px;font-size:1.3rem;font-weight:300;line-height:1.5em;color:#9da0a3;}
+	#intro p a 			{border-bottom:2px solid #2799ef;}
+
+/* -----------------------------------------
    Work
 ----------------------------------------- */
 
 	.block-grid li 		{position:relative;}
+	.block-grid li a 	{font-weight:700;}
 	.hover-info 		{
 							position:absolute;
 							top:0; left:0; right:0;
@@ -69,7 +81,8 @@
 							background:rgba(11,13,15,0.90);
 						}
 	.hover-info p 		{margin-top:36px;padding:7px 20px 10px;background:#f3f6f9;color:#232323;font-weight:500;}
-	.hover-info a 		{display:block;padding:7px 20px 10px;width:12%;background:#f3f6f9;color:#232323;font-size:1.4rem;font-weight:700;}
+	.hover-info p + p 	{margin-top:0 !important;}
+	.hover-info a 		{display:block;padding:7px 20px 10px;width:12%;background:#f3f6f9;color:#232323;font-weight:700;}
 	.hover-info a:hover {-webkit-transition:0.5s all ease;-moz-transition:0.5s all ease;transition:0.5s all ease;padding-left:30px;}
 
 /* -----------------------------------------
@@ -78,10 +91,11 @@
 	
 	#project-slide div	{margin-left:0 !important;}
 
+	#project-info 		{margin-top:-18px;}
 	.project-title 		{border-bottom:1px solid #ccc;}
 	.project-description{padding:18px 0;border-bottom:1px solid #ccc;}
 
-	#project-nav 		{}
+	#project-nav 		{padding-top:36px;}
 	#project-nav .block-grid.three-up > li:first-child 			{background:#f3f6f9;color:#333;}
 	#project-nav .block-grid.three-up > li 						{background:rgba(11,13,15,0.90);color:#f3f6f9;}
 	#project-nav .block-grid.three-up li div ul 				{margin-left:0 !important;}
@@ -91,7 +105,10 @@
 ----------------------------------------- */
 	
 	.content 			{margin-left:0;}
-	#hello hgroup 		{padding-top:18px;}
+	#values 			{border-bottom:1px solid #ccc;background:url('../images/profile-photo.jpg') right bottom no-repeat;height:296px;}
+	#values > div 		{margin-left:0 !important;}
+	#values hgroup 		{padding-top:126px;}
+	#hello 				{padding-top:36px;}
 	#skills .content 	{padding-top:54px; border-top:1px solid #ccc;}
 
 /* -----------------------------------------
