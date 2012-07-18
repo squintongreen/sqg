@@ -58,6 +58,23 @@
 	.well-right 		{padding:36px 10px 0 0;}
 	.well-left 			{padding:18px 0 0 10px;}
 
+	.fade-in 			{
+						-webkit-transition: 0.5s all ease-in-out;
+						   -moz-transition: 0.5s all ease-in-out;
+						     -o-transition: 0.5s all ease-in-out;
+								transition: 0.5s all ease-in-out;
+								opacity: 1;
+								filter: alpha(opacity=100);
+						}
+	.fade-out 			{
+						-webkit-transition: 0.5s all ease-in-out;
+						   -moz-transition: 0.5s all ease-in-out;
+						     -o-transition: 0.5s all ease-in-out;
+								transition: 0.5s all ease-in-out;
+								opacity: 0;
+								filter: alpha(opacity=0);
+						}
+
 /* -----------------------------------------
    Index Styles
 ----------------------------------------- */

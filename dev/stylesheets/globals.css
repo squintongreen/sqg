@@ -43,6 +43,7 @@
 	}
 	html {
 		font-size: 100%; 
+		background:#f3f6f9;
 	}
 	/* HTML5 display-role reset for older browsers */
 	article, aside, details, figcaption, figure, 
