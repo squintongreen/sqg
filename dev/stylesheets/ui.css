@@ -68,13 +68,25 @@
 		padding-right: 0 !important;
 		padding-bottom:16px !important;
 		text-align: center; 
-		font-size: 24px;
+		font-size: 1rem;
 		letter-spacing:1px;
 	}
 	
 	.button.left-align { 
 		text-align: left; 
 		text-indent: 12px;
+	}
+
+	.button.disabled {
+	-webkit-opacity: 0.25;
+	   -moz-opacity: 0.25;
+			opacity: 0.25;
+	}
+
+	.button.disabled:hover {
+	-webkit-opacity: 0.50;
+	   -moz-opacity: 0.50;
+			opacity: 0.50;
 	}
 	
 	.button:active {}
