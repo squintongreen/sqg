@@ -2,9 +2,7 @@
 ##############################
 src/
 hire/
-portfolio/javascripts/
-portfolio/stylesheets/
-portfolio/images/
+portfolio/archive
 
 robots.txt
 humans.txt
