@@ -101,29 +101,29 @@
 	.nice.large.button 		{ background-position: 0 -30px; }
 	 
 	/* Colors ---------- */
-	.blue.button			{ background-color: #00a6fc;  }
+	.blue.button			{ background-color: #00a6fc; }
 	.red.button				{ background-color: #e91c21; }
 	.white.button			{ background-color: #e9e9e9; color: #333; font-variant:small-caps; text-shadow:none !important; }
 	.charcoal.button		{ background-color: rgb(31,33,35); color:#e9e9e9; }
-	.resume.button 			{ background-color: rgb(31,33,35); color:#e91c21; font-variant:small-caps; letter-spacing:1px;}
-	.linkedin.button 		{ background-color: rgb(31,33,35); color:#0066cc; font-variant:small-caps; letter-spacing:1px;}
-	.twitter.button 		{ background-color: rgb(31,33,35); color:#00a6fc; font-variant:small-caps; letter-spacing:1px;}
+	.scarlet.button 		{ background-color: rgb(31,33,35); color:#e91c21; font-variant:small-caps; letter-spacing:1px;}
+	.deep-blue.button 		{ background-color: rgb(31,33,35); color:#0066cc; font-variant:small-caps; letter-spacing:1px;}
+	.sky.button 			{ background-color: rgb(31,33,35); color:#00a6fc; font-variant:small-caps; letter-spacing:1px;}
 	
 	/* Nice Colors ---------- */
-	.nice.blue.button		{ border: 1px solid #0593dc;  }
-	.nice.red.button		{ border: 1px solid #b90b0b;  }
+	.nice.blue.button		{ border: 1px solid #0593dc; }
+	.nice.red.button		{ border: 1px solid #b90b0b; }
 	.nice.white.button		{ border: 1px solid #cacaca; text-shadow: none !important; }
 	.nice.charcoal.button	{ border: 1px solid #000; }
 	
 	/* Hovers ---------- */
 	.button:hover 			{ background-color: #0192dd; color: #fff; }
-	.blue.button:hover		{ background-color: #0192dd; 	}
-	.red.button:hover 		{ background-color: #d01217; 	}
+	.blue.button:hover		{ background-color: #0192dd; }
+	.red.button:hover 		{ background-color: #d01217; }
 	.white.button:hover		{ background-color: rgb(31,33,35); color: #f1f1f1; }
 	.charcoal.button:hover	{ background-color: #e9e9e9; color:rgb(31,33,35); }
-	.resume.button:hover 	{ background-color: #e91c21; color:#f1f1f1;}
-	.linkedin.button:hover 	{ background-color: #0066cc; color:#f1f1f1;}
-	.twitter.button:hover 	{ background-color: #00a6fc; color:#f1f1f1;}
+	.scarlet.button:hover 	{ background-color: #e91c21; color:#f1f1f1;}
+	.deep-blue.button:hover { background-color: #0066cc; color:#f1f1f1;}
+	.sky.button:hover 		{ background-color: #00a6fc; color:#f1f1f1;}
 
 
 /*	--------------------------------------------------

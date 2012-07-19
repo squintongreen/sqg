@@ -94,7 +94,6 @@
 	ul.circle { list-style: circle outside; }
 	ul.disc { list-style: disc outside; }
 	ul ul, ol ol { margin: 4px 0 5px 30px; }
-	li { margin-bottom: 12px; }
 	ul.large li { line-height: 21px; }
 	dl {margin:3px 0 16px;padding-bottom:18px;border-bottom:1px solid #ccc;}
 	dt {margin-bottom:2px;font-weight:600;}

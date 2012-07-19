@@ -10,10 +10,11 @@
 	
 	/* Mobile */
 	@media only screen and (max-width: 767px) {
-		body { -webkit-text-size-adjust: none; }
+		html {font-size:75%;}
+		body { -webkit-text-size-adjust: none;}
 		
 		.row, body, .container { width: 100%; min-width: 0; margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; }
-		.row .row .column, .row .row .columns { padding: 0; }
+		.row .row .column, .row .row .columns { padding-left: 0; padding-right:0; }
 		.column, .columns { width: auto !important; float: none; margin-left: 0px; margin-right: 0px; padding-left: 20px; padding-right: 20px; }
 		.column:last-child, .columns:last-child { margin-right: 0px; }
 		.offset-by-one, .offset-by-two, .offset-by-three, .offset-by-four, .offset-by-five, .offset-by-six, .offset-by-seven, .offset-by-eight, .offset-by-nine, .offset-by-ten, .offset-by-eleven { margin-left: 0% !important; }
@@ -69,19 +70,49 @@
 	:: Content Blocks
 ---------------------------------------------------*/
 	
-	@media only screen and (max-width: 400px) {
-		.navbar a 		{padding:36px 0 !important;}
-		.desktop 		{display:none !important;}
-		.shape a 		{font-size: 0.9rem !important;text-align:right !important;}
-		.sphere h4,
-		.pyramid h4,
-		.cube h4 		{font-weight:400 !important;color:#414141 !important;letter-spacing:normal !important;}
-		.sphere 		{height:100px !important;background:url('../images/sphere-sm.png') 25px center no-repeat !important;}
-		.design 		{padding-top:36px !important;}
-		.pyramid 		{height:100px !important;background:url('../images/pyramid-sm.png') 20px center no-repeat !important;}
-		.profile 		{padding-top:36px !important;}
-		.cube 			{height:100px !important;background:url('../images/cube-sm.png') 25px center no-repeat !important;}
-		.contact 		{padding-top:36px !important;}
+	@media only screen and (max-width: 767px) {
+		header 			{
+							padding:18px 0 0 0 !important;
+							background:rgb(11,13,15);
+							position:fixed;
+							top:0;left:0;right:0;
+							z-index:1005;
+						}
+		.logo 			{display: none;}
+		.logo-sm 		{display: block !important;width:60px;height:19px;}
+		nav 			{margin: -54px -7% 0 0 !important;float:right;}
+		nav a 			{padding:3px 5px;border-radius:1px;}
+		nav a:hover		{background:#f3f6f9;color:#333;}
+		header + section{margin-top:36px !important;}
+		section > div 	{margin-left:0 !important;}
+		footer > .island > div 					{margin-left:0 !important;}
+
+		/*  --  Index Styles  --  */
+		#intro hgroup 	{padding:18px 0 36px !important;}
+
+		/*  --  Work Styles  --  */
+		#work > .column,
+		#work > .columns				 		{padding-left:0;padding-right:0;}
+		.block-grid.three-up li					{margin-bottom:-9px;}
+
+		/*  --  Project Styles  --  */
+		#project-slide 							{padding-top:55px;}
+		#porject-slide .column,
+		#project-slide .columns 				{padding:0 !important;}
+		.description 							{padding-bottom:18px;}
+
+		/*  --  Contact  --  */
+		#email 			{padding-top:72px !important;}
+		#other 			{padding-top:30px !important;}
+	}
+
+/* -------------------------------------------------- 
+	:: Typography
+---------------------------------------------------*/
+	
+	@media only screen and (max-width: 767px) {
+		#intro h1 		{margin-bottom:9px !important; font-size:3.0rem !important;}
+		.project-description p					{font-size:88% !important;}
 	}
 
 /* -------------------------------------------------- 
