@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="stylesheets/typography.min.css">
   <link rel="stylesheet" href="stylesheets/grid.min.css">
   <link rel="stylesheet" href="stylesheets/ui.min.css">
-  <link rel="stylesheet" href="stylesheets/mobile.min.css">
+  <link rel="stylesheet" href="stylesheets/mobile.css">
   <!-- End Combine and Compress These CSS Files -->
   <link rel="stylesheet" href="stylesheets/app.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
@@ -33,7 +33,7 @@
 <div class="container">
   <header>
     <div class="row">
-        <div class="four phone-four columns">
+        <div class="three phone-four columns">
           <a href="index.html">
           <!-- Not quite the 'Konami Code' -->
           <img class="logo" src="images/shapes-light.png" alt="circle, triangle, square" title="sqg" />
@@ -41,7 +41,7 @@
           </a>
         </div><!-- /three -->
         <nav>
-          <div class="eight phone-four columns pull-one">
+          <div class="eight phone-four columns">
             <ul>
               <li>
                 <!-- Keep. -->
@@ -61,10 +61,10 @@
     </div><!-- /row -->
   </header>
 
-  <section id="hello" class="row island a">
+  <section id="hello" class="row island b">
     <div class="content nine phone-four columns">
       <h1>hello.</h1>
-      <p>My name is Samuel Quinton Green, but you can call me Sam (I have also been known to respond to Sammy, Samwise, and Sampson).</p>
+      <p>Welcome to my home on the Internet. My name is Samuel Quinton Green, but you can call me Sam (I have also been known to respond to Sammy, Samwise, and Sampson).</p>
       <p>I’m a self-taught designer and developer living in Atlanta.
           I design and build products for screen and print.
           Currently, I specialize in user interface design,
@@ -74,19 +74,21 @@
           data using tools such as Processing, and
           writing object-oriented code.
       </p>
-      <a href="docs/resume-060712.pdf" class="button sky">download resume</a>
+      <p>What? You want more? Well keep reading!
+      </p>
+      <!--<a href="docs/resume-060712.pdf" class="button sky">download resume</a>-->
     </div><!-- /content -->
   </section><!-- /hello row island -->
 
   <section id="services" class="row island">
     <div class="content nine phone-four columns">
       <h5>services</h5>
-      <ul class="block-grid three-up">
+      <ul class="block-grid three-up mobile">
         <li>
           <div class="shape-wrap design well-left">
-            <p><strong>design.</strong></p>
           </div>
           <ul class="service-list">
+            <li><p class="header"><strong>design.</strong></p></li>
             <li><p>user interface design</p></li>
             <li><p>interaction design</p></li>
             <li><p>data visualization</p></li>
@@ -94,9 +96,9 @@
         </li>
         <li>
           <div class="shape-wrap visual well-left">
-            <p><strong>visual.</strong></p>
           </div>
           <ul class="service-list">
+            <li><p class="header"><strong>visual.</strong></p></li>
             <li><p>branding/print design</p></li>
             <li><p>illustration</p></li>
             <li><p>video editing/production</p></li>
@@ -104,9 +106,9 @@
         </li>
         <li>
           <div class="shape-wrap development well-left">
-            <p><strong>development.</strong></p>
           </div>
           <ul class="service-list">
+            <li><p class="header"><strong>development.</strong></p></li>
             <li><p>front-end web development</p></li>
             <li><p>mobile web development</p></li>
             <li><p>information architecture</p></li>
@@ -117,7 +119,8 @@
   </section><!-- /services row island -->
 </div>
 
-<section id="values" class="row island c">
+<!--
+<section id="values" class="row island">
   <div class="container">
     <div class="content nine phone-four columns">
       <hgroup>
@@ -128,17 +131,18 @@
     </div>
   </div>
 </section>
+-->
 
-<!--  Got special plans for this guy.
 <div class="container">
   <footer>
     <div class="row island">
       <div class="nine phone-four columns">
         <a href="mailto:hi@squintongreen.com">hi@squintongreen.com</a>
+        <p>design &amp; build</p>
       </div>
-    </div>  /row
+    </div><!-- /row -->
   </footer>
-</div>  /container -->
+</div>
 
 <!-- Straight to the point. Easy. -->
 
