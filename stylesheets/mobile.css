@@ -109,6 +109,7 @@
 		/*  --  Contact  --  */
 		#email 			{padding-top:72px !important;}
 		#other 			{padding-top:30px !important;}
+		#other .block-grid.three-up li 			{margin-bottom:0 !important;}
 	}
 
 /* -------------------------------------------------- 
