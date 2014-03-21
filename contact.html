@@ -1,145 +1,190 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
-
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
-  <script type="text/javascript" src="http://use.typekit.com/iss4ion.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <!-- Set the viewport width to device width for mobile -->
-  <title>samuel quinton green / design &amp; build</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="format-detection" content="telephone=yes">
-  <meta charset="utf-8" />
-  <!-- Included CSS Files -->
-  <!-- Combine and Compress These CSS Files -->
-  <link rel="stylesheet" href="stylesheets/globals.min.css">
-  <link rel="stylesheet" href="stylesheets/typography.css">
-  <link rel="stylesheet" href="stylesheets/grid.min.css">
-  <link rel="stylesheet" href="stylesheets/ui.min.css">
-  <link rel="stylesheet" href="stylesheets/app.min.css">
-  <!-- End Combine and Compress These CSS Files -->
-  <link rel="stylesheet" href="stylesheets/mobile.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-  <script src="javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
-  <script src="javascripts/modernizr.foundation.js"></script>
-  <!--[if lt IE 9]>
-      <link rel="stylesheet" href="stylesheets/ie.css">
-  <![endif]-->
-  <!-- IE Fix for HTML5 Tags -->
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+	<title>eatsleepdrinkthink.</title>
+	
+	<meta charset="utf-8" />
+	<meta name="description" content="eatsleepdrinkthink.">
+	<meta name="keywords" content="eatsleepdrinkthink.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+	
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/vendor/custom.modernizr.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/gvy4tqy.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#navigation").hide();
+			$("#nav-toggle").click(function(event){
+				$("#navigation").fadeIn(200);
+				// Cool, but not ready for prime time yet. Rendering kills older comps.
+				//$("#header").addClass("css3-blur");
+				//$("#content").addClass("css3-blur");
+				//$("#content").hide();
+				event.preventDefault();
+			});
+			$("#nav-close").click(function(event){
+				$("#navigation").fadeOut(100);
+				// Cool, but not ready for prime time yet. Rendering kills older comps.
+				//$("#header").removeClass("css3-blur");
+				//$("#content").removeClass("css3-blur");
+				//$("#content").show();
+				event.preventDefault();
+			});
+			var winHeight = $(window).height();
+			var docHeight = $(document).height();
+			$("#navigation").height(docHeight);
+		});
+	</script>
 </head>
-<body>
-  
-<div class="container">
-  <header>
-    <div class="row">
-        <div class="three phone-four columns">
-          <a href="index.html">
-          <!-- Not quite the 'Konami Code' -->
-          <img class="logo" src="images/shapes-light.png" alt="circle, triangle, square" title="sqg" />
-          <img class="logo-sm" src="images/shapes-light.png" alt="circle, triangle, square" title="sqg" />
-          </a>
-        </div><!-- /three -->
-        <nav>
-          <div class="eight phone-four columns">
-            <ul>
-              <li>
-                <!-- Keep. -->
-                <a class="work-link" href="work.html">work</a>
-              </li>
-              <li>
-                <!-- It. -->
-                <a class="profile-link" href="profile.html">profile</a>
-              </li>
-              <li>
-                <!-- Simple. -->
-                <a class="active contact-link" href="contact.html">contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav><!-- /seven -->
-    </div><!-- /row -->
-  </header>
-
-  <section id="email" class="row island a">
-    <div class="content nine phone-four columns">
-      <a class="email" href="mailto:hi@squintongreen.com">hi@squintongreen.com</a>
-    </div><!-- /content -->
-  </section><!-- /email island -->
-
-  <section id="other" class="row island b">
-    <div class="content nine phone-four columns">
-      <ul class="block-grid three-up mobile">
-        <li>
-          <div class="well-top well-right">
-            <p><strong>Current status: <span class="label orange">limited</span></strong></p>
+<body id="p-contact">
+<div id="header" class="wrap">
+	<div class="row">
+		<div class="large-12 small-12 columns">
+			<a href="index.html">
+				<img src="img/logo-shapes.svg" title="sqg" alt="s. quinton green logo" width="116px" height="36px" />
+			</a>
+			<a id="nav-toggle" class="hamburger right" href="#">
+				<span class="view">contact</span>
+				<img src="img/icn-hamburger.svg" wdith="21" height="12" alt="a navigation icon resembling a humburger" title="Show Navigation" />
+			</a>
+		</div>
+	</div>
+</div>
+<div id="content" class="wrap">
+	<div id="email" class="row">
+	    <div class="large-8 small-6 columns">
+	    	<p class="lead">Send me a message.</p>
+	      <a class="email" href="mailto:hi@squintongreen.com">hi@squintongreen.com</a>
+	    </div>
+	    <div class="large-4 small-6 columns">
+	    	<p><strong>Current status: <span class="label orange">limited</span></strong></p>
             <p>I’m currently unavailable for
               full-time, contract, or freelance
               work. However, I am available for design consultations, so get in touch.
             </p>
-          </div>
-        </li>
-        <li>
-          <div class="well-deep">
-            <p><strong>also me.</strong></p>
-            <ul>
-              <li><a class="l-1" href="http://iamsam.co">iamsam.co</a></li>
-              <!--<li><a class="l-2" href="http://eatsleepdrinkthink.tumblr.com">eatsleepdrinkthink.</a></li>
-              <li><a class="l-3" href="http://anythingsomething.tumblr.com">something from something</a></li>-->
-              <li><a class="l-4" href="http://lostandsafe.tumblr.com">lost and safe</a></li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div class="well-deep">
-            <p><strong>elsewhere.</strong></p>
-            <ul>
-              <li><a class="l-8" href="http://www.twitter.com/#!/posneg">@posneg</a></li>
-              <li><a class="l-6" href="http://www.dribbble.com/sqg">Dribbble</a></li>
-              <li><a class="l-5" href="http://be.net/lostandsafe">Bēhance</a></li>
-              <li><a class="l-7" href="https://plus.google.com/u/0/112968864491777240471/posts">Google+</a></li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </div><!-- /content -->
-  </section><!-- /other row island -->
+        </div>
+    </div><!-- /email -->
+    <div id="other" class="row-wide">
+    	<div class="row">
+		    <div class="large-12 small-12 columns">
+			    <ul class="grid large-block-grid-2 small-block-grid-1">
+			        <li>
+			          <div class="well-deep">
+			            <p><strong>also me.</strong></p>
+			            <ul>
+			              <li><a class="l-1" href="http://www.squintongreen.com/dev/blog">journal</a></li>
+			              <li><a class="l-3" href="http://log.squintongreen.com">stream</a></li>
+			              <li><a class="l-2" href="http://anythingsomething.tumblr.com">art</a></li>
+			              <li><a class="l-3" href="http://lostandsafe.vsco.co">photography</a></li>
+			            </ul>
+			          </div>
+			        </li>
+			        <li>
+			          <div class="well-deep">
+			            <p><strong>elsewhere.</strong></p>
+			            <ul>
+			              <li><a class="l-4" href="http://www.twitter.com/#!/posneg">@posneg</a></li>
+			              <li><a class="l-5" href="http://www.dribbble.com/sqg">Dribbble</a></li>
+			              <li><a class="l-6" href="http://be.net/lostandsafe">Bēhance</a></li>
+			              <li><a class="l-7" href="http://lostandsafe.tumblr.com">Tumblr</a></li>
+			              <li><a class="l-8" href="http://www.last.fm/viktorvondoom">last.fm</a></li>
+			            </ul>
+			          </div>
+			        </li>
+			    </ul>
+		    </div>
+		</div>
+    </div><!-- /other -->
+	<div id="f2" class="row-wide">
+		<div class="row">
+			<div class="large-6 small-11 columns social">
+				<ul class="large-block-grid-8 small-block-grid-4">
+					<li>
+						<a href="http://www.twitter.com/posneg">
+							<img src="img/icn-twitter.svg" alt="Tiwtter icon" title="@posneg" />
+						</a>
+					</li>
+					<li>
+						<a href="http://www.dribbble.com/sqg">
+							<img src="img/icn-dribbble.svg" alt="Dribbble icon" title="sqg on Dribbble" />
+						</a>
+					</li>
+					<li>
+						<a href="http://www.be.com/lostandsafe">
+							<img src="img/icn-behance.svg" alt="Behance icon" title="lost &amp; safe on Behance" />
+						</a>
+					</li>
+					<li>
+						<a href="http://www.last.fm/viktorvondoom">
+							<img src="img/icn-lastfm.svg" alt="last.fm icon" title="viktorvondoom on last.fm" />
+						</a>
+					</li>
+				</ul>
+			</div><!-- /social -->
+			<div class="large-6 small-11 columns contact">
+				<a class="right" href="mailto:hi@squintongreen.com" title="Email me nice things.">hi@squintongreen.com</a>
+			</div>
+		</div>
+	</div><!-- /f2 -->
+</div><!-- /content -->
+<div id="navigation" class="row-wide">
+	<div id="header" class="row">
+		<div class="large-12 small-12 columns">
+			<a href="index.html">
+				<img src="img/logo-shapes.svg" title="sqg" alt="s. quinton green logo" width="116px" height="36px" />
+			</a>
+			<a id="nav-close" class="close right" href="#">
+				<img src="img/icn-close.svg" wdith="15" height="15" alt="a close icon" title="Close Navigation" />
+			</a>
+		</div>
+	</div>
+	<div id="selects" class="row">
+		<div class="large-12 small-12 columns">
+			<ul class="large-block-grid-5 small-block-grid-2">
+				<li>
+					<a class="works" href="#">
+						<h2>works</h2>
+					</a>
+				</li>
+				<li>
+					<a class="journal" href="/portfolio/dev/blog">
+						<h2>journal</h2>
+					</a>
+				</li>
+				<li>
+					<a class="stream" href="/portfolio/dev/blog/stream.html">
+						<h2>stream</h2>
+					</a>
+				</li>
+				<li>
+					<a class="contact" href="/portfolio/dev/contact.html">
+						<h2>contact</h2>
+					</a>
+				</li>
+				<li>
+					<a class="shop" href="#">
+						<h2>shop</h2>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-3 small-11 large-centered small-centered columns">
+			<p class="text-centered">email me</p>
+			<a class="button outline dark" href="mailto:hi@squintongreen.com" title="Email me nice things.">hi@squintongreen.com</a>
+		</div>
+	</div>
+</div><!-- /navigation -->
 
-  <footer>
-    <div class="row island c">
-      <div class="nine phone-four columns">
-        <a href="http://en.wikipedia.org/wiki/Atlanta">Made with love in Atlanta.</a>
-        <p>design &amp; build</p>
-      </div>
-    </div><!-- /row -->
-  </footer>
-</div>
 
-<!-- Fin. -->
-
-<!-- End Combine and Compress These JS Files -->
-<script src="javascripts/forms.jquery.js"></script>
-<script src="javascripts/init.js" type="text/javascript"></script>
-<script src="javascripts/app.js"></script>
-<!-- Google Analytics Tracking -->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-28732237-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
 </body>
 </html>
