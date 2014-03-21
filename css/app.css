@@ -133,6 +133,9 @@
      .mr2						{ margin-right: 2em; }
      .ml2						{ margin-left: 2em; }
 
+     .text.dark 				{ color: #1e2426; }
+     .text.mid 					{ color: #b0babf; }
+
 
 /* -----------------------------------------
    Home Styles
@@ -152,8 +155,8 @@
 	#h1 div:last-child 			{ padding-top: 2.250em; }
 	#h1 a 						{ padding-bottom: 0.375em; color: #414346; font-weight: 600; border-bottom: 1px solid #0099ff; }
 		#h1 a:hover 				{ color: #111114; }
-	#r1 						{ background: #33ffcc; }
-		#r1 p 						{ color: #006666; }
+	#r1 						{  }
+		#r1 p 						{ color: #e1e1e1; }
 		#r1 img 					{ 
 										-webkit-transition: all 0.2s ease-in;
 										-moz-transition: all 0.2s ease-in;
@@ -161,7 +164,7 @@
 										-o-transition: all 0.2s ease-in;
 										transition: all 0.2s ease-in;
 									}
-		/* Need to do this more programmaticall so that I can delay the animation.
+		/* Need to do this more programmatically so that I can delay the animation.
 		   This is important because the animation will activate when simply scrolling through target area.
 		   Thinking best approach is to call the animation through JS and set a delay on mouseOver.
 
@@ -173,10 +176,10 @@
 										transform: translateY(-15px); transition: all 0.3s ease-out;
 									}
 		*/
-	#r2 						{ background: #212329; }
+	#r2 						{  }
 		#r2 p 						{ color: #e1e1e1; }
 		#r2 .image 					{ padding-top: 9em; }
-	#r3 						{ background: #0066cc; }
+	#r3 						{  }
 		#r3 p 						{ color: #e1e1e1; }
 	#h3 						{ padding-top: 2.250em; padding-bottom: 0; -webkit-transition: all .15s ease-in-out; -moz-transition: all .15s ease-in-out; -ms-transition: all .15s ease-in-out; -o-transition: all .15s ease-in-out; transition: all .15s ease-in-out; }
 		#h3:hover 					{ background: #dfdfe6; -webkit-transition: all .15s ease-in-out; -moz-transition: all .15s ease-in-out; -ms-transition: all .15s ease-in-out; -o-transition: all .15s ease-in-out; transition: all .15s ease-in-out; }
@@ -188,7 +191,7 @@
    Work Styles
 ----------------------------------------- */
 
-	.grid li 			{position:relative;}
+	.grid li 			{ padding: 0 !important; position:relative; }
 	.grid li img 		{width:100%;}
 	.hover-info 		{
 							position:absolute;

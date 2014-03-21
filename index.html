@@ -37,6 +37,16 @@
 			var winHeight = $(window).height();
 			var docHeight = $(document).height();
 			$("#navigation").height(docHeight);
+
+			// Work Info Hover
+	        var info = $('.hover-info');
+	        var trigger = $('.grid li');
+	        $(info).hide();
+	        $(trigger).mouseenter(function(){
+	          $(this).children('.hover-info').fadeIn(300);
+	        }).mouseleave(function(){
+	          $(this).children('.hover-info').fadeOut(300);
+	        });
 		});
 	</script>
 </head>
@@ -56,8 +66,10 @@
 <div id="content" class="wrap">
 	<div id="intro" class="row">
 		<div class="large-12 small-12 columns">
-			<p class="lead">digital interface designer, web application developer.<br />
-				loves cycling. living in atlanta.
+			<p class="lead"><span class="text dark">samuel q green</span><br />
+				<span class="text mid">full-time product designer.<br />
+				sometime painter.<br />
+				loves cycling.</span>
 			</p>
 		</div>
 	</div><!-- /row intro -->
@@ -72,70 +84,56 @@
 		-->
 	</div><!-- /h1 -->
 	<div id="r1" class="row-wide">
-		<div class="row">
-			<div class="large-12 small-12 columns project">
-				<div class="row">
-					<div class="large-5 small-12 columns details">
-						<p class="name">lume personal tracker</p>
-						<p class="role">ui . branding . system design</p>
-						<a class="button outline icnView" href="#">view</a>
-					</div>
-					<div class="large-7 small-12 columns image">
-						<img src="img/iphone-flat.png" alt="" title="" />
-					</div>
-				</div>
-			</div><!-- /project -->
-		</div><!-- /row wide -->
-	</div><!-- /r1 -->
-	<div id="h2" class="row section-header">
 		<div class="large-12 small-12 columns">
-			<h1>recently.</h1>
-		</div>
-	</div><!-- /h2 -->
-	<div class="row-wide">
-		<div id="r2" class="large-8 small-8 columns project modern">
-			<div class="row">
-				<div class="large-5 small-12 columns details">
-					<p class="name">modern minimal</p>
-					<p class="role">iconography</p>
-					<a class="button outline icnView" href="#">view</a>
-				</div>
-				<div class="large-7 small-12 columns image">
-					<img src="img/modern-minimal.svg" alt="an image of the modern minimal icons" title="modern minimal glyps" />
-				</div>
-			</div>
-		</div><!-- /modern -->
-		<div id="r3" class="large-4 small-4 columns project scan">
-			<div class="row">
-				<div class="large-5 small-12 columns details">
-					<p class="name">ScanShowSell</p>
-					<p class="role">ui . front-end</p>
-					<a class="button outline icnView" href="#">view</a>
-				</div>
-				<div class="large-7 small-12 columns image">
-					<img src="img/scan-assets.png" alt="ScanShowSell" title="ScanShowSell" />
-				</div>
-			</div>
-		</div><!-- /scan -->
-	</div><!-- /r2 -->
-	<!--  ======  FOR NOW  ======
-	<div id="r2" class="row-wide">
-		<div class="row">
-			<div class="large-12 small-12 columns project">
-				<div class="row">
-					<div class="large-5 small-12 columns details">
-						<p class="name">modern minimal</p>
-						<p class="role">iconography</p>
-						<a class="button outline icnView" href="#">view</a>
-					</div>
-					<div class="large-7 small-12 columns image">
-						<img src="img/modern-minimal.svg" alt="an image of the modern minimal icons" title="modern minimal glyps" />
-					</div>
-				</div>
-			</div> /project
-		</div>
-	</div>   /r2
-	-->
+		    <ul class="grid large-block-grid-3 small-block-grid-1">
+		        <li class="grid-1">
+		          <div class="hover-info">
+		            <a href="modern.html">
+		              <p class="project-name">modern minimal glyphs</p>
+		              <p class="project-type">icon design</p>
+		            </a>
+		          </div>
+		          <img src="img/modern/thumbs/thumb-minimal.jpg" alt="project thumbnail" title="modern minimal glyphs" />
+		        </li>
+		        <li class="grid-2">
+		          <div class="hover-info">
+		            <a href="scan.html">
+		              <p class="project-name">ScanShowSell</p>
+		              <p class="project-type">web, mobile, branding</p>
+		            </a>
+		          </div>
+		          <img src="img/scan/thumbs/thumb-scan.png" alt="project thumbnail" title="scanshowsell" />
+		        </li>
+		        <li class="grid-3">
+		          <div class="hover-info">
+		            <a href="akina.html">
+		              <p class="project-name">Akina</p>
+		              <p class="project-type">branding, print</p>
+		            </a>
+		          </div>
+		          <img src="img/akina/thumbs/thumb-akina.jpg" alt="project thumbnail" title="akina" />
+		        </li>
+		        <li class="grid-4">
+		          <div class="hover-info">
+		            <a href="ricci.html">
+		              <p class="project-name">Ricci International</p>
+		              <p class="project-type">branding, print, package</p>
+		            </a>
+		          </div>
+		          <img src="img/ricci/thumbs/thumb-ricci.jpg" alt="project thumbnail" title="ricci international" />
+		        </li>
+		        <li class="grid-5">
+		          <div class="hover-info">
+		            <a href="logos.html">
+		              <p class="project-name">Various Works</p>
+		              <p class="project-type">branding, print</p>
+		            </a>
+		          </div>
+		          <img src="img/logos/thumbs/thumb-logo.jpg" alt="project thumbnail" title="logos, 2009 - 2011" />
+		        </li>
+		    </ul>
+	    </div>
+    </div>
 	<div id="h3" class="show-for-small row-wide">
 		<div class="row">
 			<div class="small-centered small-12 columns view-all">
