@@ -1,0 +1,373 @@
+/* -------------------------------------------------- 
+    Table of Contents
+-----------------------------------------------------
+:: Reset & Standards
+:: Links
+:: Lists
+:: Tables
+:: Misc
+*/
+
+
+/*	--------------------------------------------------
+	:: Body Styles
+	-------------------------------------------------- */
+	body 	{
+			background:#f3f6f9;
+			}
+	#home 	{margin-top:100px;}
+	.thin 				{font-weight:100;}
+
+/*	--------------------------------------------------
+	:: Content Block Styles
+	-------------------------------------------------- */
+	
+	.navbar a				{
+							margin:0 auto;
+							padding:54px 0 54px 10px;
+							width:36px;
+							display:block;
+							float:none;
+							}
+	.shape 					{position:relative;}
+	.shape a 				{
+							color:#313131;
+							font-family: "brandon-grotesque","Helvetica Neue", Helvetica, sans-serif;
+							font-style: normal;
+							font-weight: 300;
+							font-size:3.6rem;
+							text-transform:uppercase;
+							text-align:center;
+							}
+	.sphere 				{
+							background:url('../images/sphere.png') center center no-repeat, url('../images/sphere-shadow.png') center 216px no-repeat;
+							background-origin:border;
+							height:414px;
+							overflow:hidden;
+							display:block;
+							transition:all 0.2s ease;
+							-moz-transition:all 0.2s ease;
+							-webkit-transition:all 0.2s ease;
+							-o-transition:all 0.2s ease;
+							}
+	.design					{
+							padding-top:425px;
+							height:414px;
+							overflow:hidden;
+							display:block;
+							transition:all 0.2s ease;
+							-moz-transition:all 0.2s ease;
+							-webkit-transition:all 0.2s ease;
+							-o-transition:all 0.2s ease;
+							}
+	.design:hover 			{padding-top:380px;}
+
+	.pyramid 				{
+							background:url('../images/pyramid.png') center center no-repeat, url('../images/pyramid-shadow.png') center 173px no-repeat;
+							height:414px;
+							overflow:hidden;
+							transition:all 0.2s ease;
+							-moz-transition:all 0.2s ease;
+							-webkit-transition:all 0.2s ease;
+							-o-transition:all 0.2s ease;
+							}
+	.profile				{
+							padding-top:425px;
+							height:414px;
+							overflow:hidden;
+							display:block;
+							transition:all 0.2s ease;
+							-moz-transition:all 0.2s ease;
+							-webkit-transition:all 0.2s ease;
+							-o-transition:all 0.2s ease;
+							}
+	.profile:hover 			{padding-top:380px;}
+
+	.cube 					{
+							background:url('../images/cube.png') center center no-repeat, url('../images/cube-shadow.png') center 206px no-repeat;
+							height:414px;
+							overflow:hidden;
+							transition:all 0.2s ease;
+							-moz-transition:all 0.2s ease;
+							-webkit-transition:all 0.2s ease;
+							-o-transition:all 0.2s ease;
+							}
+	.contact				{
+							padding-top:425px;
+							height:414px;
+							overflow:hidden;
+							display:block;
+							transition:all 0.2s ease;
+							-moz-transition:all 0.2s ease;
+							-webkit-transition:all 0.2s ease;
+							-o-transition:all 0.2s ease;
+							}
+	.contact:hover 			{padding-top:380px;}
+
+/*	--------------------------------------------------
+	:: Animation Keyframes
+	-------------------------------------------------- */
+
+/*  Sphere Hovering Animation  */
+	.sphere:hover			{
+							display:block;
+							animation-name:sphere-hover;
+							animation-duration:2s;
+							animation-iteration-count:infinite;
+							animation-direction:alternate;
+							animation-play-state:running;
+							animation-delay:0;
+							animation-fill-mode:both;
+
+							-moz-animation-name:sphere-hover;
+							-moz-animation-duration:2s;
+							-moz-animation-iteration-count:infinite;
+							-moz-animation-direction:alternate;
+							-moz-animation-play-state:running;
+							-moz-animation-delay:0;
+							-moz-animation-fill-mode:both;
+
+							-webkit-animation-name:sphere-hover;
+							-webkit-animation-duration:2s;
+							-webkit-animation-iteration-count:infinite;
+							-webkit-animation-direction:alternate;
+							-webkit-animation-play-state:running;
+							-webkit-animation-delay:0;
+							-webkit-animation-fill-mode:both;
+
+							-o-animation-name:sphere-hover;
+							-o-animation-duration:2s;
+							-o-animation-iteration-count:infinite;
+							-o-animation-direction:alternate;
+							-o-animation-play-state:running;
+							-o-animation-delay:0;
+							-o-animation-fill-mode:both;
+							}
+	@keyframes sphere-hover	{
+
+		0% 	{
+			background:url('../images/sphere.png') center center no-repeat, url('../images/sphere-shadow.png') center 216px no-repeat;
+			background-size:auto, auto;
+			animation-timing-function:ease-in;
+		}
+		100% 	{
+			background:url('../images/sphere.png') center 54px no-repeat, url('../images/sphere-shadow.png') center 221px no-repeat;
+			background-size:auto, 75%;
+			animation-timing-function:ease-out;
+		}
+	}
+	@-moz-keyframes sphere-hover	{
+
+		0% 	{
+			background:url('../images/sphere.png') center center no-repeat, url('../images/sphere-shadow.png') center 216px no-repeat;
+			background-size:auto, auto;
+			animation-timing-function:ease-in;
+		}
+		100% 	{
+			background:url('../images/sphere.png') center 54px no-repeat, url('../images/sphere-shadow.png') center 221px no-repeat;
+			background-size:auto, 75%;
+			animation-timing-function:ease-out;
+		}
+	}
+	@-webkit-keyframes sphere-hover	{
+
+		0% 	{
+			background:url('../images/sphere.png') center center no-repeat, url('../images/sphere-shadow.png') center 216px no-repeat;
+			background-size:auto, auto;
+			animation-timing-function:ease-in;
+		}
+		100% 	{
+			background:url('../images/sphere.png') center 54px no-repeat, url('../images/sphere-shadow.png') center 221px no-repeat;
+			background-size:auto, 75%;
+			animation-timing-function:ease-out;
+		}
+	}
+	@-o-keyframes sphere-hover	{
+
+		0% 	{
+			background:url('../images/sphere.png') center center no-repeat, url('../images/sphere-shadow.png') center 216px no-repeat;
+			background-size:auto, auto;
+			animation-timing-function:ease-in;
+		}
+		100% 	{
+			background:url('../images/sphere.png') center 54px no-repeat, url('../images/sphere-shadow.png') center 221px no-repeat;
+			background-size:auto, 75%;
+			animation-timing-function:ease-out;
+		}
+	}
+
+/*  Pyramid Hovering Animation  */
+	.pyramid:hover			{
+							animation-name:pyramid-hover;
+							animation-duration:2s;
+							animation-iteration-count:infinite;
+							animation-direction:alternate;
+							animation-play-state:running;
+							animation-delay:0;
+							animation-fill-mode:both;
+
+							-moz-animation-name:pyramid-hover;
+							-moz-animation-duration:2s;
+							-moz-animation-iteration-count:infinite;
+							-moz-animation-direction:alternate;
+							-moz-animation-play-state:running;
+							-moz-animation-delay:0;
+							-moz-animation-fill-mode:both;
+
+							-webkit-animation-name:pyramid-hover;
+							-webkit-animation-duration:2s;
+							-webkit-animation-iteration-count:infinite;
+							-webkit-animation-direction:alternate;
+							-webkit-animation-play-state:running;
+							-webkit-animation-delay:0;
+							-webkit-animation-fill-mode:both;
+
+							-o-animation-name:pyramid-hover;
+							-o-animation-duration:2s;
+							-o-animation-iteration-count:infinite;
+							-o-animation-direction:alternate;
+							-o-animation-play-state:running;
+							-o-animation-delay:0;
+							-o-animation-fill-mode:both;
+							}
+	@keyframes pyramid-hover	{
+
+		0% 	{
+			background:url('../images/pyramid.png') center center no-repeat, url('../images/pyramid-shadow.png') center 173px no-repeat;
+			background-size:auto, auto;
+			animation-timing-function:ease-in;
+		}
+		100% 	{
+			background:url('../images/pyramid.png') center 60px no-repeat, url('../images/pyramid-shadow.png') center 178px no-repeat;
+			background-size:auto, 75%;
+			animation-timing-function:ease-out;
+		}
+	}
+	@-moz-keyframes pyramid-hover	{
+
+		0% 	{
+			background:url('../images/pyramid.png') center center no-repeat, url('../images/pyramid-shadow.png') center 173px no-repeat;
+			background-size:auto, auto;
+			animation-timing-function:ease-in;
+		}
+		100% 	{
+			background:url('../images/pyramid.png') center 60px no-repeat, url('../images/pyramid-shadow.png') center 178px no-repeat;
+			background-size:auto, 75%;
+			animation-timing-function:ease-out;
+		}
+	}
+	@-webkit-keyframes pyramid-hover	{
+
+		0% 	{
+			background:url('../images/pyramid.png') center center no-repeat, url('../images/pyramid-shadow.png') center 173px no-repeat;
+			background-size:auto, auto;
+			animation-timing-function:ease-in;
+		}
+		100% 	{
+			background:url('../images/pyramid.png') center 60px no-repeat, url('../images/pyramid-shadow.png') center 178px no-repeat;
+			background-size:auto, 75%;
+			animation-timing-function:ease-out;
+		}
+	}
+	@-o-keyframes pyramid-hover	{
+
+		0% 	{
+			background:url('../images/pyramid.png') center center no-repeat, url('../images/pyramid-shadow.png') center 173px no-repeat;
+			background-size:auto, auto;
+			animation-timing-function:ease-in;
+		}
+		100% 	{
+			background:url('../images/pyramid.png') center 60px no-repeat, url('../images/pyramid-shadow.png') center 178px no-repeat;
+			background-size:auto, 75%;
+			animation-timing-function:ease-in;
+		}
+	}
+
+/*  Cube Hovering Animation  */
+	.cube:hover			{
+							animation-name:cube-hover;
+							animation-duration:2s;
+							animation-iteration-count:infinite;
+							animation-direction:alternate;
+							animation-play-state:running;
+							animation-delay:0;
+							animation-fill-mode:both;
+
+							-moz-animation-name:cube-hover;
+							-moz-animation-duration:2s;
+							-moz-animation-iteration-count:infinite;
+							-moz-animation-direction:alternate;
+							-moz-animation-play-state:running;
+							-moz-animation-delay:0;
+							-moz-animation-fill-mode:both;
+
+							-webkit-animation-name:cube-hover;
+							-webkit-animation-duration:2s;
+							-webkit-animation-iteration-count:infinite;
+							-webkit-animation-direction:alternate;
+							-webkit-animation-play-state:running;
+							-webkit-animation-delay:0;
+							-webkit-animation-fill-mode:both;
+
+							-o-animation-name:cube-hover;
+							-o-animation-duration:2s;
+							-o-animation-iteration-count:infinite;
+							-o-animation-direction:alternate;
+							-o-animation-play-state:running;
+							-o-animation-delay:0;
+							-o-animation-fill-mode:both;
+							}
+	@keyframes cube-hover	{
+
+		0% 	{
+			background:url('../images/cube.png') center center no-repeat, url('../images/cube-shadow.png') center 206px no-repeat;
+			background-size:auto, auto;
+			animation-timing-function:ease-in;
+		}
+		100% 	{
+			background:url('../images/cube.png') center 60px no-repeat, url('../images/cube-shadow.png') center 211px no-repeat;
+			background-size:auto, 75%;
+			animation-timing-function:ease-out;
+		}
+	}
+	@-moz-keyframes cube-hover	{
+
+		0% 	{
+			background:url('../images/cube.png') center center no-repeat, url('../images/cube-shadow.png') center 206px no-repeat;
+			background-size:auto, auto;
+			animation-timing-function:ease-in;
+		}
+		100% 	{
+			background:url('../images/cube.png') center 60px no-repeat, url('../images/cube-shadow.png') center 211px no-repeat;
+			background-size:auto, 75%;
+			animation-timing-function:ease-out;
+		}
+	}
+	@-webkit-keyframes cube-hover	{
+
+		0% 	{
+			background:url('../images/cube.png') center center no-repeat, url('../images/cube-shadow.png') center 206px no-repeat;
+			background-size:auto, auto;
+			animation-timing-function:ease-in;
+		}
+		100% 	{
+			background:url('../images/cube.png') center 60px no-repeat, url('../images/cube-shadow.png') center 211px no-repeat;
+			background-size:auto, 75%;
+			animation-timing-function:ease-out;
+		}
+	}
+	@-o-keyframes cube-hover	{
+
+		0% 	{
+			background:url('../images/cube.png') center center no-repeat, url('../images/cube-shadow.png') center 206px no-repeat;
+			background-size:auto, auto;
+			animation-timing-function:ease-in;
+		}
+		100% 	{
+			background:url('../images/cube.png') center 60px no-repeat, url('../images/cube-shadow.png') center 211px no-repeat;
+			background-size:auto, 75%;
+			animation-timing-function:ease-out;
+		}
+	}
+
+

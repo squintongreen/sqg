@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         		 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+	<title>{Title}</title>
+	
+	<meta charset="utf-8" />
+	{block:Description}
+        <meta name="description" content="{MetaDescription}" />
+    {/block:Description}
+	<meta name="keywords" content="eatsleepdrinkthink.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+
+	<!-- DEFAULT COLORS -->
+	<meta name="color:Background" content="#f7f9fc"/>
+	<meta name="color:Text" content="#616366"/>
+
+	<!-- ADVANCED STYLING -->
+	<meta name="if:Fade Images On Hover" content="1"/>
+
+	<!-- SOCIAL LINKS -->
+	<meta name="text:Twitter Username" content=""/>
+	<meta name="text:Dribbble Username" content=""/>
+	<meta name="text:Behance Username" content=""/>
+	<meta name="text:Flickr Username" content=""/>
+	<meta name="text:lastfm Username" content=""/>
+	<meta name="text:Email" content=""/>
+	
+	<link rel="shortcut icon" href="{Favicon}">
+	<link rel="alternate" type="application/rss+xml" href="{RSS}">
+	<link rel="stylesheet" href="http://www.squintongreen.com/dev/css/foundation.css" />
+	<link rel="stylesheet" href="http://www.squintongreen.com/dev/css/app.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://www.squintongreen.com/dev/js/vendor/custom.modernizr.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/gvy4tqy.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#navigation").hide();
+			$("#nav-toggle").click(function(event){
+				$("#navigation").fadeIn(200);
+				//$("#content").hide();
+				event.preventDefault();
+			});
+			$("#nav-close").click(function(event){
+				$("#navigation").fadeOut(100);
+				//$("#content").show();
+				event.preventDefault();
+			});
+			var winHieght = $(window).height();
+			var docHeight = $(document).height();
+			$("#navigation").height(docHeight);
+		});
+	</script>
+	<style type="text/css">
+		{block:IfFadeImagesOnHover}{block:IndexPage}
+		.post img {
+		-moz-transition: 0.15s ease-in;
+		-webkit-transition: 0.15s ease-in;
+		-o-transition: 0.15s ease-in;
+		-ms-transition: 0.15s ease-in;
+		transition: 0.15s ease-in;
+		}
+		.post img:hover {
+		opacity:0.8;
+		-moz-transition: 0.15s ease-in;
+		-webkit-transition: 0.15s ease-in;
+		-o-transition: 0.15s ease-in;
+		-ms-transition: 0.15s ease-in;
+		transition: 0.15s ease-in;
+		}
+		{/block:IndexPage}{/block:ifFadeImagesOnHover}
+		{CustomCSS}
+	</style>
+</head>
+<body id="p-stream-index">
+<div id="header" class="wrap">
+	<div class="row">
+		<div class="large-12 small-12 columns">
+			<a href="log.squintongreen.com">
+				<img src="http://www.squintongreen.com/dev//img/logo-shapes.svg" title="sqg" alt="s. quinton green logo" width="116px" height="36px" />
+			</a>
+			<a id="nav-toggle" class="hamburger right" href="#">
+				<span class="view">stream</span>
+				<img src="http://www.squintongreen.com/dev//img/icn-hamburger.svg" wdith="21" height="12" alt="a navigation icon resembling a humburger" title="Show Navigation" />
+			</a>
+		</div>
+	</div>
+</div>
+<div id="content" class="wrap posts">
+{block:IndexPage}
+<!-- Still looking for a better solution.
+<div class="row-wide">
+	<div class="row subnav">
+		<div class="large-centered large-10 small-centered small-10 columns">
+			<ul class="large-block-grid-5 small-block-grid-5">
+				<li>
+					<a class="active" href="http://log.squintongreen.com/" title="stream">stream</a>
+				</li>
+				<li>
+					<a href="http://artefacts.squintongreen.com" title="artefacts">artefacts</a>
+				</li>
+				<li>
+					<a href="http://log.squintongreen.com/tagged/photos" title="photos">photos</a>
+				</li>
+				<li>
+					<a href="http://log.squintongreen.com/tagged/sounds" title="sounds">sounds</a>
+				</li>
+				<li>
+					<a href="http://log.squintongreen.com/tagged/reading" title="reading">reading</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+-->
+{block:Posts}
+	{block:Text}
+	<div id="{PostID}" class="post-wrap text {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				<div class="post-content">
+					{Body}
+				</div><!-- /post-content -->
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post text -->
+	</div><!-- /post wrap -->
+	{/block:Text}
+	{block:Quote}
+	<div id="{PostID}" class="post-wrap quote {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				<div class="post-content">
+					<blockquote>{Quote}
+						{block:Source}<cite><span>{Source}</span></cite>{/block:Source}
+					</blockquote>
+				</div><!-- /post-content -->
+			</div><!-- /post-body -->
+		</div><!-- /post quote -->
+	</div><!-- /post wrap -->
+	{/block:Quote}
+	{block:Photo}
+	<div id="{PostID}" class="post-wrap photo {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				{block:LinkURL}
+					{LinkOpenTag}
+						<img src="{PhotoURL-500}" alt="{PhotoAlt}" title="" width="{PhotoWidth-500}" height="{PhotoHeight-500}" />
+					{LinkCloseTag}
+				{/block:LinkURL}
+				{block:HighRes}
+					<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}" title="" width="{PhotoWidth-HighRes}" height="{PhotoHeight-HighRes}" />
+				{/block:HighRes}
+				{block:Caption}
+				<p class="caption">{Caption}</p>
+				{/block:Caption}
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post photo -->
+	</div><!-- /post wrap -->
+	{/block:Photo}
+	{block:Panorama}
+	<div id="{PostID}" class="post-wrap panorama {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				{LinkOpenTag}<img src="{PhotoURL-Panorama}" alt="{PhotoAlt}" />{LinkCloseTag}
+				{block:Caption}
+				<p class="caption">{Caption}</p>
+				{/block:Caption}
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div>
+		</div>
+	</div>
+	{/block:Panorama}
+	{block:Photoset}
+	<div id="{PostID}" class="post-wrap photoset {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				<div class="post-content mb2">
+					{Photoset-700}
+					<!--
+					{block:Photos}
+						{block:HighRes}
+							<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}" width="{PhotoWidth-HighRes}" height="{PhotoHeight-HighRes}" />
+						{/block:HighRes}
+					{/block:Photos}
+					-->
+					{block:Caption}
+					<p class="caption">{Caption}</p>
+					{/block:Caption}
+				</div>
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div>
+		</div>
+	</div><!-- /post wrap -->
+	{/block:Photoset}
+	{block:Link}
+	<div id="{PostID}" class="post-wrap link {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				<div class="post-content">
+					<a class="external" href="{URL}" title="" {Target}>{Name}</a>
+					{block:Description}
+	                    <p class="description">{Description}</p>
+	                {/block:Description}
+	            </div>
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post link -->
+	</div><!-- /post wrap -->
+	{/block:Link}
+	{block:Video}
+	<div id="{PostID}" class="post-wrap video {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				<div class="post-content">
+					{Video-700}
+
+					{block:Caption}
+					<p class="caption">{Caption}</p>
+					{/block:Caption}
+				</div>
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post video -->
+	</div><!-- /post wrap -->
+	{/block:Video}
+	{block:Audio}
+	<div id="{PostID}" class="post-wrap audio {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				<div class="post-content">
+					{block:AudioPlayer}
+						{AudioPlayerWhite}
+					{/block:AudioPlayer}
+
+					<!--
+					{block:ExternalAudio}
+						<div class="row">
+							<div class="large-6 small-6 columns album art">
+								{block:AlbumArt}
+								{AlbumArtURL}
+								{/block:AlbumArt}
+								<audio src="{ExternalAudioURL}">
+								<p>Your browser does not support the audio element.</p>
+								</audio>
+							</div>
+							<div class="large-6 small-6 columns album details">
+								<div class="row">
+									<div class="large-12 small-12 columns track">
+										{block:TrackName}
+										{TrackName}
+										{/block:TrackName}
+									</div>
+									<div class="large-12 small-12 columns name">
+										{block:Album}
+										{Album}
+										{/block:Album}
+									</div>
+									<div class="large-12 small-12 columns artist">
+										{block:Artist}
+										{Artist}
+										{/block:Artist}
+									</div>
+								</div>
+							</div>
+						</div>
+					{/block:ExternalAudio}
+				-->
+					
+					{block:Caption}
+					<p class="caption">{Caption}</p>
+					{/block:Caption}
+				</div>
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post audio -->
+	</div><!-- /post wrap -->
+	{/block:Audio}
+{/block:Posts}
+{block:Pagination}
+	<div id="pagination" class="row-wide grey-border">
+		<div class="row">
+			<div class="large-6 small-6 columns older">
+				{block:PreviousPage}
+	                <a href="{PreviousPage}">older</a>
+	            {/block:PreviousPage}
+	        </div>
+	        <div class="large-6 small-6 columns newer">
+				{block:NextPage}
+	                <a href="{NextPage}">newer</a>
+	            {/block:NextPage}
+	        </div>
+	    </div>
+	</div>
+{/block:Pagination}
+{/block:IndexPage}
+{block:PermalinkPage}
+<!-- Still looking for a better solution.
+<div class="row-wide">
+	<div class="row subnav">
+		<div class="large-centered large-10 small-centered small-10 columns">
+			<ul class="large-block-grid-5 small-block-grid-5">
+				<li>
+					<a class="active" href="http://log.squintongreen.com/" title="stream">stream</a>
+				</li>
+				<li>
+					<a href="http://artefacts.squintongreen.com" title="artefacts">artefacts</a>
+				</li>
+				<li>
+					<a href="http://log.squintongreen.com/tagged/photos" title="photos">photos</a>
+				</li>
+				<li>
+					<a href="http://log.squintongreen.com/tagged/sounds" title="sounds">sounds</a>
+				</li>
+				<li>
+					<a href="http://log.squintongreen.com/tagged/reading" title="reading">reading</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+-->
+{block:Posts}
+	{block:Text}
+	<div id="{PostID}" class="post-wrap text {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				<div class="post-content">
+					{Body}
+				</div><!-- /post-content -->
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post text -->
+	</div><!-- /post wrap -->
+	{/block:Text}
+	{block:Quote}
+	<div id="{PostID}" class="post-wrap quote {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				<div class="post-content">
+					<blockquote>{Quote}
+						{block:Source}<cite><span>{Source}</span></cite>{/block:Source}
+					</blockquote>
+				</div><!-- /post-content -->
+			</div><!-- /post-body -->
+		</div><!-- /post quote -->
+	</div><!-- /post wrap -->
+	{/block:Quote}
+	{block:Photo}
+	<div id="{PostID}" class="post-wrap photo {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				{block:LinkURL}
+					{LinkOpenTag}
+						<img src="{PhotoURL-500}" alt="{PhotoAlt}" title="" width="{PhotoWidth-500}" height="{PhotoHeight-500}" />
+					{LinkCloseTag}
+				{/block:LinkURL}
+				{block:HighRes}
+					<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}" title="" width="{PhotoWidth-HighRes}" height="{PhotoHeight-HighRes}" />
+				{/block:HighRes}
+				{block:Caption}
+				<p class="caption">{Caption}</p>
+				{/block:Caption}
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post photo -->
+	</div><!-- /post wrap -->
+	{/block:Photo}
+	{block:Panorama}
+	<div id="{PostID}" class="post-wrap panorama {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				{LinkOpenTag}<img src="{PhotoURL-Panorama}" alt="{PhotoAlt}" />{LinkCloseTag}
+				{block:Caption}
+				<p class="caption">{Caption}</p>
+				{/block:Caption}
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div>
+		</div>
+	</div>
+	{/block:Panorama}
+	{block:Photoset}
+	<div id="{PostID}" class="post-wrap photoset {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				<div class="post-content">
+					{Photoset-700}
+					<!--
+					{block:Photos}
+						{block:HighRes}
+							<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}" width="{PhotoWidth-HighRes}" height="{PhotoHeight-HighRes}" />
+						{/block:HighRes}
+						{block:Caption}
+						<p class="caption">{Caption}</p>
+						{/block:Caption}
+					{/block:Photos}
+					-->
+				</div>
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div>
+		</div>
+	</div><!-- /post wrap -->
+	{/block:Photoset}
+	{block:Link}
+	<div id="{PostID}" class="post-wrap link {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				<div class="post-content">
+					<a class="external" href="{URL}" title="" {Target}>{Name}</a>
+					{block:Description}
+	                    <p class="description">{Description}</p>
+	                {/block:Description}
+	            </div>
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post link -->
+	</div><!-- /post wrap -->
+	{/block:Link}
+	{block:Video}
+	<div id="{PostID}" class="post-wrap video {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				<div class="post-content">
+					{Video-700}
+
+					{block:Caption}
+					<p class="caption">{Caption}</p>
+					{/block:Caption}
+				</div>
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post video -->
+	</div><!-- /post wrap -->
+	{/block:Video}
+	{block:Audio}
+	<div id="{PostID}" class="post-wrap audio {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				<div class="post-content">
+					{block:AudioPlayer}
+						{AudioPlayerWhite}
+					{/block:AudioPlayer}
+
+					<!--
+					{block:ExternalAudio}
+						<div class="row">
+							<div class="large-6 small-6 columns album art">
+								{block:AlbumArt}
+								{AlbumArtURL}
+								{/block:AlbumArt}
+								<audio src="{ExternalAudioURL}">
+								<p>Your browser does not support the audio element.</p>
+								</audio>
+							</div>
+							<div class="large-6 small-6 columns album details">
+								<div class="row">
+									<div class="large-12 small-12 columns track">
+										{block:TrackName}
+										{TrackName}
+										{/block:TrackName}
+									</div>
+									<div class="large-12 small-12 columns name">
+										{block:Album}
+										{Album}
+										{/block:Album}
+									</div>
+									<div class="large-12 small-12 columns artist">
+										{block:Artist}
+										{Artist}
+										{/block:Artist}
+									</div>
+								</div>
+							</div>
+						</div>
+					{/block:ExternalAudio}
+				-->
+					
+					{block:Caption}
+					<p class="caption">{Caption}</p>
+					{/block:Caption}
+				</div>
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post audio -->
+	</div><!-- /post wrap -->
+	{/block:Audio}
+{/block:Posts}
+{block:Pagination}
+<div id="pagination" class="row-wide grey-border">
+	<div class="row">
+		<div class="large-6 small-6 columns older">
+			{block:PreviousPost}
+                <a href="{PreviousPost}">previous post</a>
+            {/block:PreviousPost}
+        </div>
+        <div class="large-6 small-6 columns newer">
+			{block:NextPost}
+                <a href="{NextPost}">next post</a>
+            {/block:NextPost}
+        </div>
+    </div>
+</div>
+{/block:Pagination}
+{/block:PermalinkPage}
+{block:TagPage}
+<div class="row-wide">
+	<div class="row tagHeader">
+		<div class="large-centered large-10 small-centered small-10 columns">
+			<h3>You are browsing {Tag}.</h3>
+		</div>
+	</div>
+</div>
+{block:Posts}
+	{block:Text}
+	<div id="{PostID}" class="post-wrap text {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				<div class="post-content">
+					{Body}
+				</div><!-- /post-content -->
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post text -->
+	</div><!-- /post wrap -->
+	{/block:Text}
+	{block:Quote}
+	<div id="{PostID}" class="post-wrap quote {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				<div class="post-content">
+					<blockquote>{Quote}
+						{block:Source}<cite><span>{Source}</span></cite>{/block:Source}
+					</blockquote>
+				</div><!-- /post-content -->
+			</div><!-- /post-body -->
+		</div><!-- /post quote -->
+	</div><!-- /post wrap -->
+	{/block:Quote}
+	{block:Photo}
+	<div id="{PostID}" class="post-wrap photo {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				{block:LinkURL}
+					{LinkOpenTag}
+						<img src="{PhotoURL-500}" alt="{PhotoAlt}" title="" width="{PhotoWidth-500}" height="{PhotoHeight-500}" />
+					{LinkCloseTag}
+				{/block:LinkURL}
+				{block:HighRes}
+					<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}" title="" width="{PhotoWidth-HighRes}" height="{PhotoHeight-HighRes}" />
+				{/block:HighRes}
+				{block:Caption}
+				<p class="caption">{Caption}</p>
+				{/block:Caption}
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post photo -->
+	</div><!-- /post wrap -->
+	{/block:Photo}
+	{block:Panorama}
+	<div id="{PostID}" class="post-wrap panorama {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				{LinkOpenTag}<img src="{PhotoURL-Panorama}" alt="{PhotoAlt}" />{LinkCloseTag}
+				{block:Caption}
+				<p class="caption">{Caption}</p>
+				{/block:Caption}
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div>
+		</div>
+	</div>
+	{/block:Panorama}
+	{block:Photoset}
+	<div id="{PostID}" class="post-wrap photoset {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				<div class="post-content">
+					{Photoset-700}
+					<!--
+					{block:Photos}
+						{block:HighRes}
+							<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}" width="{PhotoWidth-HighRes}" height="{PhotoHeight-HighRes}" />
+						{/block:HighRes}
+						{block:Caption}
+						<p class="caption">{Caption}</p>
+						{/block:Caption}
+					{/block:Photos}
+					-->
+				</div>
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div>
+		</div>
+	</div><!-- /post wrap -->
+	{/block:Photoset}
+	{block:Link}
+	<div id="{PostID}" class="post-wrap link {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				<div class="post-content">
+					<a class="external" href="{URL}" title="" {Target}>{Name}</a>
+					{block:Description}
+	                    <p class="description">{Description}</p>
+	                {/block:Description}
+	            </div>
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post link -->
+	</div><!-- /post wrap -->
+	{/block:Link}
+	{block:Video}
+	<div id="{PostID}" class="post-wrap video {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				<div class="post-content">
+					{Video-700}
+
+					{block:Caption}
+					<p class="caption">{Caption}</p>
+					{/block:Caption}
+				</div>
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post video -->
+	</div><!-- /post wrap -->
+	{/block:Video}
+	{block:Audio}
+	<div id="{PostID}" class="post-wrap audio {TagsAsClasses}">
+		<div class="row post">
+			<div class="large-12 small-12 columns post-body">
+				{block:Title}
+				<div class="post-header">
+					<p class="post-title"><a href="{Permalink}" title="{Title}">{Title}</a></p>
+				</div>
+				{/block:Title}
+				<div class="post-content">
+					{block:AudioPlayer}
+						{AudioPlayerWhite}
+					{/block:AudioPlayer}
+
+					<!--
+					{block:ExternalAudio}
+						<div class="row">
+							<div class="large-6 small-6 columns album art">
+								{block:AlbumArt}
+								{AlbumArtURL}
+								{/block:AlbumArt}
+								<audio src="{ExternalAudioURL}">
+								<p>Your browser does not support the audio element.</p>
+								</audio>
+							</div>
+							<div class="large-6 small-6 columns album details">
+								<div class="row">
+									<div class="large-12 small-12 columns track">
+										{block:TrackName}
+										{TrackName}
+										{/block:TrackName}
+									</div>
+									<div class="large-12 small-12 columns name">
+										{block:Album}
+										{Album}
+										{/block:Album}
+									</div>
+									<div class="large-12 small-12 columns artist">
+										{block:Artist}
+										{Artist}
+										{/block:Artist}
+									</div>
+								</div>
+							</div>
+						</div>
+					{/block:ExternalAudio}
+				-->
+					
+					{block:Caption}
+					<p class="caption">{Caption}</p>
+					{/block:Caption}
+				</div>
+				<div class="post-footer">
+					<p class="meta">
+						{block:Date}<span class="date">{Month} {DayOfMonth}, {Year}</span>{/block:Date}{block:HasTags}&nbsp;&nbsp;|&nbsp;&nbsp;{block:Tags}<a class="tag" href="{TagURL}">{Tag}</a>&nbsp;{/block:Tags}{/block:HasTags}
+					</p>
+				</div><!-- /post-footer -->
+			</div><!-- /post-body -->
+		</div><!-- /post audio -->
+	</div><!-- /post wrap -->
+	{/block:Audio}
+{/block:Posts}
+{block:Pagination}
+	<div id="pagination" class="row-wide grey-border">
+		<div class="row">
+			<div class="large-6 small-6 columns older">
+				{block:PreviousPage}
+	                <a href="{PreviousPage}">older</a>
+	            {/block:PreviousPage}
+	        </div>
+	        <div class="large-6 small-6 columns newer">
+				{block:NextPage}
+	                <a href="{NextPage}">newer</a>
+	            {/block:NextPage}
+	        </div>
+	    </div>
+	</div>
+{/block:Pagination}
+{/block:TagPage}
+	<div id="f2" class="row-wide">
+		<div class="row">
+			<div class="large-6 small-11 columns social">
+				<ul class="large-block-grid-8 small-block-grid-4">
+					{block:IfTwitterUsername}
+					<li>
+						<a href="http://www.twitter.com/{text:Twitter Username}">
+							<img src="http://www.squintongreen.com/dev/img/icn-twitter.svg" alt="Tiwtter icon" title="@posneg" />
+						</a>
+					</li>
+					{/block:IfTwitterUsername}
+					{block:IfDribbbleUsername}
+					<li>
+						<a href="http://www.dribbble.com/{text:Dribbble Username}">
+							<img src="http://www.squintongreen.com/dev/img/icn-dribbble.svg" alt="Dribbble icon" title="sqg on Dribbble" />
+						</a>
+					</li>
+					{/block:IfDribbbleUsername}
+					{block:IfBehanceUsername}
+					<li>
+						<a href="http://www.be.com/{text:Behance Username}">
+							<img src="http://www.squintongreen.com/dev/img/icn-behance.svg" alt="Behance icon" title="lost &amp; safe on Behance" />
+						</a>
+					</li>
+					{/block:IfBehanceUsername}
+					{block:IflastfmUsername}
+					<li>
+						<a href="http://www.last.fm/{text:lastfm Username}">
+							<img src="http://www.squintongreen.com/dev/img/icn-lastfm.svg" alt="last.fm icon" title="viktorvondoom on last.fm" />
+						</a>
+					</li>
+					{/block:IflastfmUsername}
+				</ul>
+			</div><!-- /social -->
+			{block:IfEmail}
+			<div class="large-6 small-11 columns contact">
+				<a class="right" href="{text:Email}" title="Email me nice things.">{text:Email}</a>
+			</div>
+			{/block:IfEmail}
+		</div>
+	</div><!-- /f2 -->
+</div><!-- /content -->
+<div id="navigation" class="row-wide">
+	<div id="header" class="row">
+		<div class="large-12 small-12 columns">
+			<a href="index.html">
+				<img src="http://www.squintongreen.com/dev/img/logo-shapes.svg" title="sqg" alt="s. quinton green logo" width="116px" height="36px" />
+			</a>
+			<a id="nav-close" class="close right" href="#">
+				<img src="http://www.squintongreen.com/dev/img/icn-close.svg" width="15" height="15" alt="a close icon" title="Close Navigation" />
+			</a>
+		</div>
+	</div>
+	<div id="selects" class="row">
+		<div class="large-12 small-12 columns">
+			<ul class="large-block-grid-5 small-block-grid-2">
+				<li>
+					<a class="works" href="#">
+						<h2>works</h2>
+					</a>
+				</li>
+				<li>
+					<a class="journal" href="/portfolio/dev/blog">
+						<h2>journal</h2>
+					</a>
+				</li>
+				<li>
+					<a class="stream" href="/portfolio/dev/blog/stream.html">
+						<h2>stream</h2>
+					</a>
+				</li>
+				<li>
+					<a class="contact" href="/portfolio/dev/contact.html">
+						<h2>contact</h2>
+					</a>
+				</li>
+				<li>
+					<a class="shop" href="#">
+						<h2>shop</h2>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-3 small-11 large-centered small-centered columns">
+			<p class="text-centered">email me</p>
+			<a class="button outline dark" href="mailto:hi@squintongreen.com" title="Email me nice things.">hi@squintongreen.com</a>
+		</div>
+	</div>
+</div><!-- /navigation -->
+
+
+  <script src="http://www.squintongreen.com/dev/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>

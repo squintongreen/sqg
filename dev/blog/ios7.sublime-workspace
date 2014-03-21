@@ -1,0 +1,636 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"font",
+				"font-variant"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"photo",
+				"photoset"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"fu",
+				"futura-pt-1"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"futu",
+				"futura-pt-2"
+			],
+			[
+				"rat",
+				"ratio-2"
+			],
+			[
+				"ratio-",
+				"ratio-1"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"hover",
+				"hover"
+			],
+			[
+				"ds",
+				"display	display: inline"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"h",
+				"href"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"oack",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Library/WebServer/Documents/lume/js/swipe.js",
+		"/Library/WebServer/Documents/lume/blog/css/foundation.css",
+		"/Library/WebServer/Documents/lume/blog/css/app.css",
+		"/Library/WebServer/Documents/lume/blog/index-tumblr.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/stream-tumblr.html",
+		"/Library/WebServer/Documents/lume/css/foundation.css",
+		"/Library/WebServer/Documents/portfolio/dev/css/app.css",
+		"/Library/WebServer/Documents/lume/css/app.css",
+		"/Users/admin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/admin/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Library/WebServer/Documents/portfolio/sqg.sublime-project",
+		"/Library/WebServer/Documents/portfolio/dev/css/foundation.css",
+		"/Library/WebServer/Documents/portfolio/dev/blog/index.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/jawbone-up.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/ios7-beta1.html",
+		"/Users/Samuel/Dropbox/Writings/hidden_in_plain_sight.html",
+		"/Library/WebServer/Documents/portfolio/dev/index.html",
+		"/Library/WebServer/Documents/portfolio/dev/js/photosets.js",
+		"/Library/WebServer/Documents/portfolio/dev/contact.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/stream.html",
+		"/Users/Samuel/Sites/jacqueline/less/navs.less",
+		"/Library/WebServer/Documents/portfolio/dev/blog/mason-tumblr.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/syndex.html",
+		"/Library/WebServer/Documents/portfolio/dev/js/tumblrautopagernopage.js",
+		"/Library/WebServer/Documents/portfolio/dev/js/mason.js",
+		"/Library/WebServer/Documents/portfolio/dev/blog/smpl.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/article.html",
+		"/Library/WebServer/Documents/portfolio/stylesheets/app.css",
+		"/Library/WebServer/Documents/portfolio/stylesheets/styles.css",
+		"/Library/WebServer/Documents/portfolio/stylesheets/typography.css",
+		"/Library/WebServer/Documents/portfolio/stylesheets/ui.css",
+		"/Library/WebServer/Documents/portfolio/contact.html",
+		"/Library/WebServer/Documents/portfolio/dev/css/buttons.css",
+		"/Library/WebServer/Documents/portfolio/dev/blog/css/app.css",
+		"/Library/WebServer/Documents/portfolio/dev/blog/css/foundation.css",
+		"/Library/WebServer/Documents/portfolio/dev/css/ui.css",
+		"/Users/Samuel/Sites/portfolio/squintongreen.sublime-project",
+		"/Users/Samuel/Sites/portfolio/stylesheets/app.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/ui.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/globals.css",
+		"/Users/Samuel/Sites/portfolio/modern.html",
+		"/Users/Samuel/Sites/portfolio/akina.html",
+		"/Users/Samuel/Sites/portfolio/index.html",
+		"/Users/Samuel/Sites/portfolio/logos.html",
+		"/Users/Samuel/Sites/portfolio/profile.html",
+		"/Users/Samuel/Sites/portfolio/ricci.html",
+		"/Users/Samuel/Sites/portfolio/scan.html",
+		"/Users/Samuel/Sites/portfolio/work.html",
+		"/Users/Samuel/Sites/portfolio/stylesheets/typography.min.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/typography.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/app.min.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/mobile.css",
+		"/Users/Samuel/Sites/portfolio/contact.html",
+		"/Users/Samuel/Sites/modern/index.html",
+		"/Users/Samuel/Sites/portfolio/stylesheets/grid.min.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/ui.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/scan.html",
+		"/Users/Samuel/Sites/portfolio/dev/akina.html",
+		"/Users/Samuel/Sites/portfolio/dev/ricci.html",
+		"/Users/Samuel/Sites/portfolio/dev/logos.html",
+		"/Users/Samuel/Sites/portfolio/dev/index.html",
+		"/Users/Samuel/Sites/portfolio/dev/work.html",
+		"/Users/Samuel/Sites/portfolio/dev/profile.html",
+		"/Users/Samuel/Sites/portfolio/dev/contact.html",
+		"/Users/Samuel/Sites/portfolio/dev/modern.html",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/globals.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/grid.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/typography.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/ui.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/mobile.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/app.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/styles.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/ui.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/typography.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/grid.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/globals.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/mobile.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/app.css",
+		"/Users/Samuel/Sites/portfolio/hire/stylesheets/home.css",
+		"/Users/Samuel/Sites/portfolio/hire/icanhazjob.html",
+		"/Users/Samuel/Sites/portfolio/hire/stylesheets/index.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/flexslider.css",
+		"/Users/Samuel/Sites/portfolio/dev/javascripts/animate.js",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/index.css",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Samuel/Sites/portfolio/.gitignore",
+		"/Users/Samuel/Sites/portfolio/.gitattributes",
+		"/Users/Samuel/Sites/modern/stylesheets/app.css",
+		"/Users/Samuel/Sites/portfolio/dev/projects/modern.html",
+		"/Users/Samuel/Dropbox/Sites/git/tumblr/art/index.html",
+		"/Users/Samuel/Sites/portfolio/dev/css/style.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/index.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/mobile.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/dev/css/typography.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/dev/css/reset.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/typography.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/grid.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/index2.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/index2.html",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/mobile2.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/home.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/icanhazjob.html",
+		"/Users/Samuel/Dropbox/Sites/portfolio/javascripts/animate.js",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/ui.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/globals.css",
+		"/Users/Samuel/Sites/mwb/_attachments/index.html",
+		"/Users/Samuel/Sites/mwb/template/features.html",
+		"/Users/Samuel/Sites/mwb/template/pricing.html",
+		"/Users/Samuel/Sites/mwb/template/showcase.html",
+		"/Users/Samuel/Sites/mwb/template/why.html",
+		"/Users/Samuel/Sites/mwb/_attachments/css/home.css",
+		"/Users/Samuel/Sites/mwb/vendor/couchapp/_attachments/jquery.couchLogin.js",
+		"/Users/Samuel/Sites/mwb/views/byCollection/map.js",
+		"/Users/Samuel/Sites/mwb/filters/by_collection.js",
+		"/Users/Samuel/Sites/mwb/shows/_.js",
+		"/Users/Samuel/Sites/mwb/shows/context.js",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/home2.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/bx_styles/bx_styles.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/bootstrap.css",
+		"/Users/Samuel/Dropbox/Sites/blog/stylesheets/typography.css",
+		"/Users/Samuel/Dropbox/Sites/blog/stylesheets/template_index.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/javascripts/custom.js",
+		"/Users/Samuel/Sites/mwb/_attachments/css/bx_styles/bx_styles.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/hireme.html",
+		"/Users/Samuel/Dropbox/Sites/portfolio/index.html",
+		"/Users/Samuel/Dropbox/Sites/portfolio/javascripts/jquery.hoverIntent.min.js",
+		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/sub-testimonial.html",
+		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/req-service.html"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"li",
+			"ul",
+			"li",
+			"600",
+			"h3",
+			"http://www.lume.io/img/blog/icn-share.png",
+			"{Month} {DayOfMonth}, {Year}",
+			"block:Text",
+			"block:Photo",
+			"block:Text",
+			"p",
+			"h2",
+			"h1",
+			"btn",
+			"Startup Life",
+			"Design",
+			"24px",
+			"mouseenter",
+			"intro",
+			"14px 9px",
+			"19px",
+			"38px",
+			"19px",
+			"12px",
+			"h2",
+			"150",
+			"10",
+			"300",
+			"hide",
+			"fadeOut",
+			"100",
+			"25",
+			"(10)",
+			"(25)",
+			"fadeOut",
+			"fadeIn",
+			"14px 9px",
+			"9px",
+			"19px",
+			"38px",
+			"18px",
+			"top",
+			"12px",
+			"5px",
+			"1f232b",
+			"2px",
+			"364045",
+			"1e2426",
+			"Arial,",
+			"\"proxima-nova-1\", \"proxima-nova-2\"",
+			"\"futura-pt-1\", \"futura-pt-2\"",
+			"AvenirLT-Roman",
+			"b",
+			"h1",
+			"MyKievit",
+			"div",
+			"main",
+			"div",
+			"h4",
+			"ol",
+			"h4",
+			"4px",
+			"4px 18px",
+			"18px",
+			"12px",
+			"50%",
+			"12",
+			"Page Name 1",
+			"Tracking",
+			"blog",
+			"12",
+			"javascripts",
+			"stylesheets",
+			"252px",
+			"time",
+			"IndexPage",
+			"Page",
+			"PreviousPage",
+			"IndexPage",
+			"row-wide",
+			".row-wide",
+			".wrap",
+			".row-wide",
+			"wrap",
+			"tagNav",
+			"43.125em",
+			"700",
+			"Observations",
+			".tag",
+			".row",
+			"nav.footer",
+			"meta",
+			"post-footer",
+			"articleNav",
+			"Back ",
+			"p",
+			".5em",
+			"460",
+			"690",
+			"appSwitch-l",
+			"nc-l",
+			"controlCenter-l",
+			"small-block-grid-2",
+			"Switch",
+			"nc",
+			"1",
+			"img/",
+			"der",
+			".post-wrap",
+			"\n.",
+			"information appliance",
+			"Specifically",
+			"nc",
+			"controlCenter",
+			"zoom3",
+			"zoom2",
+			"zoom1",
+			"png",
+			"a1a3a6",
+			"edNote",
+			"proxima-nova",
+			"futura-pt",
+			"webkit",
+			"ratio",
+			"FF9B66",
+			"c1c3c9",
+			"content",
+			"'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"39em",
+			"<span class=\"thick\">",
+			"one columns",
+			"five columns",
+			"two columns",
+			"six columns",
+			"five columns",
+			"one columns",
+			"eleven columns",
+			"{validate: {required:true}}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "ios7.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"founda",
+				"css/foundation.css"
+			],
+			[
+				"inde",
+				"blog/index-tumblr.html"
+			],
+			[
+				"foundatio",
+				"blog/css/foundation.css"
+			],
+			[
+				"",
+				"blog/css/app.css"
+			],
+			[
+				"app",
+				"css/app.css"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"foundat",
+				"blog/css/foundation.css"
+			],
+			[
+				"found",
+				"css/foundation.css"
+			],
+			[
+				"ap",
+				"css/app.css"
+			],
+			[
+				"fu",
+				"css/foundation.css"
+			],
+			[
+				"io",
+				"dev/blog/ios7-beta1.html"
+			],
+			[
+				"stre",
+				"dev/blog/stream-tumblr.html"
+			],
+			[
+				"ja",
+				"dev/blog/jawbone-up.html"
+			],
+			[
+				"jaw",
+				"dev/blog/jawbone-up.html"
+			],
+			[
+				"contact",
+				"dev/contact.html"
+			],
+			[
+				"article",
+				"dev/blog/article.html"
+			],
+			[
+				"art",
+				"dev/blog/article.html"
+			],
+			[
+				"ind",
+				"dev/blog/index.html"
+			],
+			[
+				"contac",
+				"dev/contact.html"
+			],
+			[
+				"strea",
+				"dev/blog/stream.html"
+			],
+			[
+				"arti",
+				"dev/blog/article.html"
+			],
+			[
+				"conta",
+				"contact.html"
+			],
+			[
+				"in",
+				"dev/index.html"
+			],
+			[
+				"articl",
+				"dev/blog/article.html"
+			],
+			[
+				"butt",
+				"dev/css/buttons.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Library/WebServer/Documents/portfolio/sqg.sublime-project"
+			],
+			[
+				"sqg",
+				"/Library/WebServer/Documents/portfolio/squintongreen.sublime-project"
+			],
+			[
+				"lc",
+				"/Users/Samuel/Sites/jacqueline/blog/living-color.sublime-project"
+			],
+			[
+				"lo",
+				"/Library/WebServer/Documents/clients/local-color/lc.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

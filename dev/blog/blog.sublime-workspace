@@ -1,0 +1,452 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"italic"
+			],
+			[
+				"ds",
+				"display	display: inline"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"h",
+				"href"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/foundation.css",
+			"settings":
+			{
+				"buffer_size": 31518,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/app.css",
+			"settings":
+			{
+				"buffer_size": 3805,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6901,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"oack",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Library/WebServer/Documents/portfolio/blog/blog.sublime-project",
+		"/Library/WebServer/Documents/proj/bonsai/site.yml",
+		"/Library/WebServer/Documents/proj/bonsai/content/index/default.yml",
+		"/Users/Samuel/Dropbox/Resources/Mobile-Web Icons/Mobile_Web Icons/FortAwesome-Font-Awesome-7d173f2/css/font-awesome-ie7.min.css",
+		"/Library/WebServer/Documents/eatsleepdrinkthink/content/1.varieties/products.yml",
+		"/Library/WebServer/Documents/proj/bonsai/public/css/base.scss",
+		"/Library/WebServer/Documents/portfolio/blog/css/typecast.css",
+		"/Library/WebServer/Documents/portfolio/blog/container-1.html",
+		"/Library/WebServer/Documents/portfolio/blog/foundation.html",
+		"/Library/WebServer/Documents/clients/jacqueline/css/app.css",
+		"/Library/WebServer/Documents/portfolio/blog/css/ui.css",
+		"/Library/WebServer/Documents/portfolio/blog/css/plugins.css",
+		"/Library/WebServer/Documents/portfolio/blog/css/theme.css",
+		"/Library/WebServer/Documents/portfolio/blog/index.php",
+		"/Library/WebServer/Documents/portfolio/blog/css/style.css",
+		"/Library/WebServer/Documents/portfolio/blog/typecast/css/style.css",
+		"/Library/WebServer/Documents/portfolio/blog/typecast/container-1.html",
+		"/Users/Samuel/Sites/blog/footer.php",
+		"/Users/Samuel/Sites/blog/index.php",
+		"/Users/Samuel/Sites/blog/header.php",
+		"/Users/Samuel/Sites/blog/single.php",
+		"/Users/Samuel/Sites/blog/functions.php",
+		"/Users/Samuel/Sites/blog/index.html",
+		"/Users/Samuel/Sites/blog/index_tmpl.html",
+		"/Users/Samuel/Sites/blog/stylesheets/template_index.css",
+		"/Users/Samuel/Dropbox/Sites/blog/stylesheets/grid.css",
+		"/Users/Samuel/Dropbox/Sites/blog/stylesheets/typography.css",
+		"/Users/Samuel/Dropbox/Sites/blog/stylesheets/globals.css",
+		"/Users/Samuel/Dropbox/Sites/git/tumblr/art/stylesheets/template_index.css",
+		"/Users/Samuel/Dropbox/Sites/git/tumblr/art/templ_art.html",
+		"/Users/Samuel/Dropbox/Sites/jcrow/tumblr-tmpl.html",
+		"/Users/Samuel/Dropbox/Sites/blog/stylesheets/mobile.css",
+		"/Users/Samuel/Dropbox/Sites/blog/index_tmpl.html",
+		"/Users/Samuel/Dropbox/Sites/jcrow/index-tmpl.html",
+		"/Users/Samuel/Dropbox/Sites/blog/index.html",
+		"/Users/Samuel/Dropbox/Sites/sqg/index_alt.html",
+		"/Users/Samuel/Dropbox/Sites/sqg/index.html",
+		"/Users/Samuel/Dropbox/Sites/git/foundation-wp/header.php",
+		"/Users/Samuel/Dropbox/Sites/git/foundation-wp/loop-index.php",
+		"/Users/Samuel/Dropbox/Sites/git/foundation-wp/loop-page.php",
+		"/Users/Samuel/Dropbox/Sites/git/foundation-wp/sample.php",
+		"/Users/Samuel/Dropbox/Sites/git/foundation-wp/single.php",
+		"/Users/Samuel/Dropbox/Sites/git/foundation-wp/loop-single.php",
+		"/Users/Samuel/Dropbox/Sites/git/foundation-wp/index.php",
+		"/Users/Samuel/Dropbox/Sites/git/foundation-wp/page.php",
+		"/Users/Samuel/Dropbox/Sites/blog/javascripts/animate.js",
+		"/Users/Samuel/Dropbox/Sites/portfolio/javascripts/animate.js",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/home.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/index.html",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/home2.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/javascripts/jquery.hoverIntent.min.js",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/grid.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/index2.html",
+		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/sub-testimonial.html",
+		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/req-service.html",
+		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/req-consult.html",
+		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/sub-survey.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/themes.html",
+		"/Users/Samuel/Sites/mwb/_attachments/css/template_create.css",
+		"/Users/Samuel/Sites/mwb/template/mwb/_.html",
+		"/Users/Samuel/Sites/mwb/_attachments/index.html",
+		"/Users/Samuel/Sites/mwb/_attachments/css/bootstrap-2.css",
+		"/Users/Samuel/Sites/mwb/template/mwb/manage.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/_topbar.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/special-offers.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/service-areas.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/services.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/manage-photos.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/profile.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/testimonials.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/credentials.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/request-consultation.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/request-estimate.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/request-service.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/submit-survey.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/submit-testimonial.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/optional-pages.html",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Samuel/Sites/mwb/template/mwb/sidebar/profile.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard-sidebar/credentials.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/sidebar/credentials.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/sidebar/optional-pages.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/sidebar/request-consultation.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/sidebar/request-estimate.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/sidebar/request-service.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/sidebar/service-areas.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/sidebar/services.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/sidebar/special-offers.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/sidebar/submit-survey.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/sidebar/submit-testimonial.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/sidebar/testimonials.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/sidebar/manage-photos.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard-sidebar/profile.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard-sidebar/request-consultation.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard-sidebar/request-estimate.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard-sidebar/request-service.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard-sidebar/service-areas.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard-sidebar/services.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard-sidebar/special-offers.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard-sidebar/submit-survey.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard-sidebar/submit-testimonial.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard-sidebar/testimonials.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard-sidebar/manage-photos.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard-sidebar/optional-pages.html",
+		"/Users/Samuel/Dropbox/Sites/git/bootstrap/docs/javascript.html",
+		"/Users/Samuel/Dropbox/Sites/git/bootstrap/docs/index.html",
+		"/Users/Samuel/Dropbox/Sites/git/bootstrap/docs/examples/starter-template.html",
+		"/Users/Samuel/Sites/mwb/_attachments/js/application.js",
+		"/Users/Samuel/Dropbox/Sites/scanshowsell/mwb/profile.html",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/Samuel/Dropbox/Sites/git/tumblr/art/index.html",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"opacity",
+			"ff-enzo-web",
+			"all",
+			"p",
+			"h4",
+			"875em",
+			".columns",
+			"small-12",
+			"span",
+			"font-",
+			"block",
+			"effra",
+			"\"proxima-nova-1\", \"proxima-nova-2\"",
+			"show",
+			"navigation",
+			"bio",
+			"small-4",
+			"foundation",
+			"16px",
+			"toolbox",
+			"format",
+			"centered",
+			"nine",
+			"seven",
+			"twelve",
+			"meta",
+			"transition",
+			"padding-bottom",
+			"padding",
+			"transition",
+			"btn",
+			"img",
+			"{validation: {required:true}}",
+			"validate"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"enlightenment",
+			"ten",
+			"nine",
+			"{validate: {required:true}}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/foundation.css",
+					"settings":
+					{
+						"buffer_size": 31518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1388,
+								1388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1251.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/app.css",
+					"settings":
+					{
+						"buffer_size": 3805,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1455,
+								1455
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 110.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2118.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"typ",
+				"css/typecast.css"
+			],
+			[
+				"i",
+				"index.html"
+			],
+			[
+				"founda",
+				"css/foundation.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Library/WebServer/Documents/portfolio/squintongreen.sublime-project"
+			],
+			[
+				"port",
+				"/Users/Samuel/Dropbox/Sites/portfolio/squintongreen.sublime-project"
+			],
+			[
+				"jac",
+				"/Users/Samuel/Dropbox/Sites/jacqueline/jacqueline.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true
+}

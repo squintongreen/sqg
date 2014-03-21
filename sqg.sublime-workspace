@@ -1,0 +1,746 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"photo",
+				"photoset"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fu",
+				"futura-pt-1"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"futu",
+				"futura-pt-2"
+			],
+			[
+				"rat",
+				"ratio-2"
+			],
+			[
+				"ratio-",
+				"ratio-1"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"hover",
+				"hover"
+			],
+			[
+				"text",
+				"text	text-transform: capitalize/upper/lower"
+			],
+			[
+				"ds",
+				"display	display: inline"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"h",
+				"href"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dev/css/foundation.css",
+			"settings":
+			{
+				"buffer_size": 31806,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/css/app.css",
+			"settings":
+			{
+				"buffer_size": 21824,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/index.html",
+			"settings":
+			{
+				"buffer_size": 8119,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/profile.html",
+			"settings":
+			{
+				"buffer_size": 7483,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"oack",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Library/WebServer/Documents/portfolio/dev/modern.html",
+		"/Library/WebServer/Documents/portfolio/dev/css/flexslider.css",
+		"/Library/WebServer/Documents/portfolio/work.html",
+		"/Library/WebServer/Documents/portfolio/index.html",
+		"/Library/WebServer/Documents/portfolio/modern.html",
+		"/Library/WebServer/Documents/portfolio/dev/work.html",
+		"/Library/WebServer/Documents/portfolio/dev/contact.html",
+		"/Library/WebServer/Documents/portfolio/stylesheets/app.css",
+		"/Library/WebServer/Documents/portfolio/dev/blog/stream-tumblr.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/be-cool.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/index.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/jawbone-up.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/ios7-beta1.html",
+		"/Users/Samuel/Dropbox/Writings/hidden_in_plain_sight.html",
+		"/Library/WebServer/Documents/portfolio/dev/index.html",
+		"/Library/WebServer/Documents/portfolio/dev/js/photosets.js",
+		"/Library/WebServer/Documents/portfolio/dev/blog/stream.html",
+		"/Users/Samuel/Sites/jacqueline/less/navs.less",
+		"/Library/WebServer/Documents/portfolio/dev/blog/mason-tumblr.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/syndex.html",
+		"/Library/WebServer/Documents/portfolio/dev/js/tumblrautopagernopage.js",
+		"/Library/WebServer/Documents/portfolio/dev/js/mason.js",
+		"/Library/WebServer/Documents/portfolio/dev/blog/smpl.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/article.html",
+		"/Library/WebServer/Documents/portfolio/stylesheets/styles.css",
+		"/Library/WebServer/Documents/portfolio/stylesheets/typography.css",
+		"/Library/WebServer/Documents/portfolio/stylesheets/ui.css",
+		"/Library/WebServer/Documents/portfolio/contact.html",
+		"/Library/WebServer/Documents/portfolio/dev/css/buttons.css",
+		"/Library/WebServer/Documents/portfolio/dev/blog/css/app.css",
+		"/Library/WebServer/Documents/portfolio/dev/blog/css/foundation.css",
+		"/Library/WebServer/Documents/portfolio/dev/css/ui.css",
+		"/Users/Samuel/Sites/portfolio/squintongreen.sublime-project",
+		"/Users/Samuel/Sites/portfolio/stylesheets/app.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/ui.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/globals.css",
+		"/Users/Samuel/Sites/portfolio/modern.html",
+		"/Users/Samuel/Sites/portfolio/akina.html",
+		"/Users/Samuel/Sites/portfolio/index.html",
+		"/Users/Samuel/Sites/portfolio/logos.html",
+		"/Users/Samuel/Sites/portfolio/profile.html",
+		"/Users/Samuel/Sites/portfolio/ricci.html",
+		"/Users/Samuel/Sites/portfolio/scan.html",
+		"/Users/Samuel/Sites/portfolio/work.html",
+		"/Users/Samuel/Sites/portfolio/stylesheets/typography.min.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/typography.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/app.min.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/mobile.css",
+		"/Users/Samuel/Sites/portfolio/contact.html",
+		"/Users/Samuel/Sites/modern/index.html",
+		"/Users/Samuel/Sites/portfolio/stylesheets/grid.min.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/ui.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/scan.html",
+		"/Users/Samuel/Sites/portfolio/dev/akina.html",
+		"/Users/Samuel/Sites/portfolio/dev/ricci.html",
+		"/Users/Samuel/Sites/portfolio/dev/logos.html",
+		"/Users/Samuel/Sites/portfolio/dev/index.html",
+		"/Users/Samuel/Sites/portfolio/dev/work.html",
+		"/Users/Samuel/Sites/portfolio/dev/profile.html",
+		"/Users/Samuel/Sites/portfolio/dev/contact.html",
+		"/Users/Samuel/Sites/portfolio/dev/modern.html",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/globals.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/grid.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/typography.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/ui.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/mobile.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/app.min.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/styles.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/ui.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/typography.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/grid.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/globals.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/mobile.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/app.css",
+		"/Users/Samuel/Sites/portfolio/hire/stylesheets/home.css",
+		"/Users/Samuel/Sites/portfolio/hire/icanhazjob.html",
+		"/Users/Samuel/Sites/portfolio/hire/stylesheets/index.css",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/flexslider.css",
+		"/Users/Samuel/Sites/portfolio/dev/javascripts/animate.js",
+		"/Users/Samuel/Sites/portfolio/dev/stylesheets/index.css",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Samuel/Sites/portfolio/.gitignore",
+		"/Users/Samuel/Sites/portfolio/.gitattributes",
+		"/Users/Samuel/Sites/modern/stylesheets/app.css",
+		"/Users/Samuel/Sites/portfolio/dev/projects/modern.html",
+		"/Users/Samuel/Dropbox/Sites/git/tumblr/art/index.html",
+		"/Users/Samuel/Sites/portfolio/dev/css/style.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/index.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/mobile.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/dev/css/typography.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/dev/css/reset.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/typography.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/grid.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/index2.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/index2.html",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/mobile2.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/home.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/icanhazjob.html",
+		"/Users/Samuel/Dropbox/Sites/portfolio/javascripts/animate.js",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/ui.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/globals.css",
+		"/Users/Samuel/Sites/mwb/_attachments/index.html",
+		"/Users/Samuel/Sites/mwb/template/features.html",
+		"/Users/Samuel/Sites/mwb/template/pricing.html",
+		"/Users/Samuel/Sites/mwb/template/showcase.html",
+		"/Users/Samuel/Sites/mwb/template/why.html",
+		"/Users/Samuel/Sites/mwb/_attachments/css/home.css",
+		"/Users/Samuel/Sites/mwb/vendor/couchapp/_attachments/jquery.couchLogin.js",
+		"/Users/Samuel/Sites/mwb/views/byCollection/map.js",
+		"/Users/Samuel/Sites/mwb/filters/by_collection.js",
+		"/Users/Samuel/Sites/mwb/shows/_.js",
+		"/Users/Samuel/Sites/mwb/shows/context.js",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/home2.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/bx_styles/bx_styles.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/stylesheets/bootstrap.css",
+		"/Users/Samuel/Dropbox/Sites/blog/stylesheets/typography.css",
+		"/Users/Samuel/Dropbox/Sites/blog/stylesheets/template_index.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/javascripts/custom.js",
+		"/Users/Samuel/Sites/mwb/_attachments/css/bx_styles/bx_styles.css",
+		"/Users/Samuel/Dropbox/Sites/portfolio/hireme.html",
+		"/Users/Samuel/Dropbox/Sites/portfolio/index.html",
+		"/Users/Samuel/Dropbox/Sites/portfolio/javascripts/jquery.hoverIntent.min.js",
+		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/sub-testimonial.html",
+		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/req-service.html",
+		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/req-consult.html",
+		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/sub-survey.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/themes.html",
+		"/Users/Samuel/Sites/mwb/_attachments/css/template_create.css"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"6px",
+			"images",
+			".three-up",
+			"block-",
+			"images",
+			"-6",
+			"8",
+			"3",
+			"9",
+			"images",
+			"12",
+			"1em",
+			"0",
+			"image",
+			"top",
+			"h3",
+			"ratio",
+			"proxima-nova",
+			"252px",
+			"time",
+			"IndexPage",
+			"Page",
+			"PreviousPage",
+			"IndexPage",
+			"row-wide",
+			".row-wide",
+			".wrap",
+			".row-wide",
+			"wrap",
+			"tagNav",
+			"43.125em",
+			"700",
+			"Observations",
+			".tag",
+			".row",
+			"nav.footer",
+			"meta",
+			"post-footer",
+			"articleNav",
+			"Back ",
+			"p",
+			".5em",
+			"460",
+			"690",
+			"appSwitch-l",
+			"nc-l",
+			"controlCenter-l",
+			"small-block-grid-2",
+			"Switch",
+			"nc",
+			"1",
+			"img/",
+			"der",
+			".post-wrap",
+			"\n.",
+			"information appliance",
+			"Specifically",
+			"nc",
+			"controlCenter",
+			"zoom3",
+			"zoom2",
+			"zoom1",
+			"png",
+			"a1a3a6",
+			"edNote",
+			"proxima-nova",
+			"futura-pt",
+			"webkit",
+			"ratio",
+			"FF9B66",
+			"c1c3c9",
+			"content",
+			"'",
+			"\"",
+			" \"",
+			"item",
+			"TagURLChrono",
+			"4",
+			"10",
+			"9",
+			"sounds",
+			"sights",
+			"9",
+			"centered",
+			"12",
+			"3s",
+			"0.3s",
+			"ease-in",
+			"0.3s",
+			"2",
+			"Previous",
+			"album",
+			"six",
+			"Video",
+			"						{LinkURL}\n",
+			"&nbsp;&nbsp;|&nbsp;&nbsp;",
+			"post-text",
+			"div",
+			"{block:LinkURL}",
+			"{LinkOpenTag}",
+			"}\n",
+			"500",
+			"				\n",
+			"500",
+			"HighRes",
+			"Quote",
+			"blockquote",
+			"post",
+			"d7d9dc",
+			"2px",
+			"5px",
+			"label",
+			"3.375",
+			"h5",
+			"dadcdf",
+			"4.5",
+			"5.625em",
+			"54px",
+			".block-grid.three-up",
+			"section",
+			"css3",
+			"15px",
+			"addClass",
+			" style=\"border-bottom: 3px solid #111114;\"",
+			"5.625em",
+			"external",
+			"3.375em",
+			"blockquote"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"39em",
+			"<span class=\"thick\">",
+			"one columns",
+			"five columns",
+			"two columns",
+			"six columns",
+			"five columns",
+			"one columns",
+			"eleven columns",
+			"{validate: {required:true}}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dev/css/foundation.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29702,
+								29702
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dev/css/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1503,
+								1503
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 209.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dev/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2475,
+								2475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1116.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dev/profile.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1080,
+								1080
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 251.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "sqg.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"strea",
+				"dev/blog/stream-tumblr.html"
+			],
+			[
+				"io",
+				"dev/blog/ios7-beta1.html"
+			],
+			[
+				"stre",
+				"dev/blog/stream-tumblr.html"
+			],
+			[
+				"ja",
+				"dev/blog/jawbone-up.html"
+			],
+			[
+				"index",
+				"dev/blog/index.html"
+			],
+			[
+				"jaw",
+				"dev/blog/jawbone-up.html"
+			],
+			[
+				"contact",
+				"dev/contact.html"
+			],
+			[
+				"inde",
+				"dev/index.html"
+			],
+			[
+				"article",
+				"dev/blog/article.html"
+			],
+			[
+				"art",
+				"dev/blog/article.html"
+			],
+			[
+				"ind",
+				"dev/blog/index.html"
+			],
+			[
+				"contac",
+				"dev/contact.html"
+			],
+			[
+				"arti",
+				"dev/blog/article.html"
+			],
+			[
+				"conta",
+				"contact.html"
+			],
+			[
+				"in",
+				"dev/index.html"
+			],
+			[
+				"articl",
+				"dev/blog/article.html"
+			],
+			[
+				"butt",
+				"dev/css/buttons.css"
+			],
+			[
+				"app",
+				"dev/css/app.css"
+			],
+			[
+				"found",
+				"dev/css/foundation.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Library/WebServer/Documents/lume/lume.sublime-project"
+			],
+			[
+				"lc",
+				"/Users/Samuel/Sites/jacqueline/blog/living-color.sublime-project"
+			],
+			[
+				"lo",
+				"/Library/WebServer/Documents/clients/local-color/lc.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

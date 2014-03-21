@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+	<title>{Title}</title>
+	
+	<meta charset="utf-8" />
+	{block:Description}
+        <meta name="description" content="{MetaDescription}" />
+    {/block:Description}
+	<meta name="keywords" content="eatsleepdrinkthink.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+
+	<!-- DEFAULT COLORS -->
+	<meta name="color:Background" content="#f7f9fc"/>
+	<meta name="color:Text" content="#515359"/>
+
+	<!-- ADVANCED STYLING -->
+	<meta name="if:Fade Images On Hover" content="1"/>
+
+	<!-- SOCIAL LINKS -->
+	<meta name="text:Twitter Username" content=""/>
+	<meta name="text:Dribbble Username" content=""/>
+	<meta name="text:Behance Username" content=""/>
+	<meta name="text:Flickr Username" content=""/>
+	<meta name="text:lastfm Username" content=""/>
+	<meta name="text:Email" content=""/>
+	
+	<link rel="shortcut icon" href="{Favicon}">
+	<link rel="alternate" type="application/rss+xml" href="{RSS}">
+	<link rel="stylesheet" href="http://www.squintongreen.com/dev/css/foundation.css" />
+	<link rel="stylesheet" href="http://www.squintongreen.com/dev/css/app.css" />
+	<script src="http://www.squintongreen.com/dev/js/packery.pkgd.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://www.squintongreen.com/dev/js/vendor/custom.modernizr.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/gvy4tqy.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#navigation").hide();
+			$("#nav-toggle").click(function(event){
+				$("#navigation").fadeIn(200);
+				//$("#content").hide();
+				event.preventDefault();
+			});
+			$("#nav-close").click(function(event){
+				$("#navigation").fadeOut(100);
+				//$("#content").show();
+				event.preventDefault();
+			});
+			var winHieght = $(window).height();
+			var docHeight = $(document).height();
+			$("#navigation").height(docHeight);
+			/*
+			var container = document.querySelector('#container');
+			var pckry = new Packery( container, {
+			  // options
+			  itemSelector: '.item',
+			  gutter: 10,
+			  columnWidth: 15
+			});
+			*/
+		});
+	</script>
+	<style type="text/css">
+		.item 		{ width: 25%; }
+		{block:IfFadeImagesOnHover}{block:IndexPage}
+		.post img {
+		-moz-transition: 0.15s ease-in;
+		-webkit-transition: 0.15s ease-in;
+		-o-transition: 0.15s ease-in;
+		-ms-transition: 0.15s ease-in;
+		transition: 0.15s ease-in;
+		}
+		.post img:hover {
+		opacity:0.8;
+		-moz-transition: 0.15s ease-in;
+		-webkit-transition: 0.15s ease-in;
+		-o-transition: 0.15s ease-in;
+		-ms-transition: 0.15s ease-in;
+		transition: 0.15s ease-in;
+		}
+		{/block:IndexPage}{/block:ifFadeImagesOnHover}
+		{CustomCSS}
+	</style>
+</head>
+<body id="p-stream-mason">
+<div id="header" class="wrap">
+	<div class="row">
+		<div class="large-12 small-12 columns">
+			<a href="log.squintongreen.com">
+				<img src="http://www.squintongreen.com/dev//img/logo-shapes.svg" title="sqg" alt="s. quinton green logo" width="116px" height="36px" />
+			</a>
+			<a id="nav-toggle" class="hamburger right" href="#">
+				<span class="view">stream</span>
+				<img src="http://www.squintongreen.com/dev//img/icn-hamburger.svg" wdith="21" height="12" alt="a navigation icon resembling a humburger" title="Show Navigation" />
+			</a>
+		</div>
+	</div>
+</div>
+<div id="content" class="wrap posts js-packery" data-packery-options='{ "itemSelector": ".item", "gutter": 0, "columnWidth": 15, "rowHeight": 0, "containerStyle": null }'>
+{block:IndexPage}
+<div class="row-wide">
+	<div class="row subnav">
+		<div class="large-centered large-10 small-centered small-10 columns">
+			<ul class="large-block-grid-5 small-block-grid-5">
+				<li>
+					<a class="active" href="http://log.squintongreen.com/" title="stream">stream</a>
+				</li>
+				<li>
+					<a href="http://artefacts.squintongreen.com" title="artefacts">artefacts</a>
+				</li>
+				<li>
+					<a href="http://log.squintongreen.com/tagged/photos" title="photos">photos</a>
+				</li>
+				<li>
+					<a href="http://log.squintongreen.com/tagged/sounds" title="sounds">sounds</a>
+				</li>
+				<li>
+					<a href="http://log.squintongreen.com/tagged/reading" title="reading">reading</a>
+				</li>
+			</ul>
+		</div>
+	</div><!-- /subnav -->
+</div>
+{block:Posts}
+<div class="row mason">
+		<div class="large-12 small-12 columns">
+			{block:Text}
+			<div class="post item">
+			{block:Title}<h2><a href="{Permalink}">{Title}</a></h2>{/block:Title}
+			<a href="{Permalink}" style="border:0">{Body}</a>
+			{block:PermalinkPage}{block:Date}<span class="tags" style="text-transform:uppercase;"><b>&hearts; {NoteCount}</b></span> {block:Tags}<a href="{TagURL}" class="tags">{Tag}</a> {/block:Tags}{/block:Date}{/block:PermalinkPage}
+			{block:PostNotes}<div class="notestop"><div id="notes">{PostNotes}</div></div>{/block:PostNotes}
+			</div>
+			{/block:Text}
+
+			{block:Photo}
+			<div class="post item">
+			{block:IndexPage}<a href="{Permalink}">{/block:IndexPage}
+			{block:PermalinkPage}{LinkOpenTag}{/block:PermalinkPage}
+			<img src="{block:IndexPage}{PhotoURL-500}{/block:IndexPage}{block:PermalinkPage}{PhotoURL-HighRes}{/block:PermalinkPage}" alt="{PhotoAlt}"/>
+			{block:IndexPage}</a>{/block:IndexPage}
+			{block:PermalinkPage}{LinkCloseTag}{/block:PermalinkPage}
+			{block:PermalinkPage}{block:Caption}{Caption}{/block:Caption}
+			{block:Date}<span class="tags"><b>&hearts; {NoteCount}</b></span> {block:Tags}<a href="{TagURL}" class="tags">{Tag}</a> {/block:Tags}{/block:Date}{/block:PermalinkPage}
+			{block:PostNotes}<div class="notestop"><div id="notes">{PostNotes}</div></div>{/block:PostNotes}
+			</div>
+			{/block:Photo}
+
+			{block:Photoset}
+			<div class="post item">
+			{Photoset-500}
+			{block:Tags}<a href="{TagURL}" class="tags">{Tag}</a> {/block:Tags}
+			{block:PermalinkPage}{block:Date}<span class="tags" style="text-transform:uppercase;"><b>&hearts; {NoteCount}</b></span> {block:Tags}<a href="{TagURL}" class="tags">{Tag}</a> {/block:Tags}{/block:Date}{/block:PermalinkPage}
+			{block:PostNotes}<div class="notestop"><div id="notes">{PostNotes}</div></div>{/block:PostNotes}
+			</div>
+			{/block:Photoset}
+
+			{block:Quote}
+			<div class="post item">
+			<a href="{Permalink}" style="border:0"><b>"{Quote}"</b></a>
+			{block:Source}<p>&#8212; {Source}</p>{/block:Source}
+			{block:PermalinkPage}{block:Date}<span class="tags" style="text-transform:uppercase;"><b>&hearts; {NoteCount}</b></span> {block:Tags}<a href="{TagURL}" class="tags">{Tag}</a> {/block:Tags}{/block:Date}{/block:PermalinkPage}
+			{block:PostNotes}<div class="notestop"><div id="notes">{PostNotes}</div></div>{/block:PostNotes}
+			</div>
+			{/block:Quote}
+
+			{block:Link}
+			<div class="post item">
+			<h2><a href="{URL}">{Name}</a></h2>
+			<a href="{Permalink}" style="border:0">{block:Description}{Description}{/block:Description}</a>
+			{block:PermalinkPage}{block:Date}<span class="tags" style="text-transform:uppercase;"><b>&hearts; {NoteCount}</b></span> {block:Tags}<a href="{TagURL}" class="tags">{Tag}</a> {/block:Tags}{/block:Date}{/block:PermalinkPage}
+			{block:PostNotes}<div class="notestop"><div id="notes">{PostNotes}</div></div>{/block:PostNotes}
+			</div>
+			{/block:Link}
+
+			{block:Chat}
+			<div class="post item">
+			<a href="{Permalink}" style="border:0">{block:Title}<b><a href="{Permalink}">{Title}</a></b>{/block:Title}
+			{block:Lines}{block:Label}<b>{Label}</b> {Line}<br>{/block:Label}{/block:Lines}</a>
+			{block:PermalinkPage}{block:Date}<span class="tags" style="text-transform:uppercase;"><b>&hearts; {NoteCount}</b></span> {block:Tags}<a href="{TagURL}" class="tags">{Tag}</a> {/block:Tags}{/block:Date}{/block:PermalinkPage}
+			{block:PostNotes}<div class="notestop"><div id="notes">{PostNotes}</div></div>{/block:PostNotes}
+			</div>
+			{/block:Chat}
+
+			{block:Audio}
+			<div class="post item">
+			{block:AlbumArt}<a href="{Pemalink}" style="border:0"><img src="{AlbumArtURL}" style="width:233.8px"></a>{/block:AlbumArt}
+			<div class="player">{AudioPlayerBlack}</div>
+			{block:Caption}{Caption}{/block:Caption}
+			{block:PermalinkPage}{block:Date}<span class="tags" style="text-transform:uppercase;"><b>&hearts; {NoteCount}</b></span> {block:Tags}<a href="{TagURL}" class="tags">{Tag}</a> {/block:Tags}{/block:Date}{/block:PermalinkPage}
+			{block:PostNotes}<div class="notestop"><div id="notes">{PostNotes}</div></div>{/block:PostNotes}
+			</div>
+			{/block:Audio}
+
+			{block:Answer}
+			<div class="post item">
+			<a href="{Permalink}" style="border:0"><b>{Asker}: {Question}</b>
+			{Answer}</a>
+			{block:PermalinkPage}{block:Date}<span class="tags" style="text-transform:uppercase;"><b>&hearts; {NoteCount}</b></span> {block:Tags}<a href="{TagURL}" class="tags">{Tag}</a> {/block:Tags}{/block:Date}{/block:PermalinkPage}
+			{block:PostNotes}<div class="notestop"><div id="notes">{PostNotes}</div></div>{/block:PostNotes}
+			</div>
+			{/block:answer}
+
+			{block:Video}
+			<div class="post item">
+			<div class="video">
+			{Video-500}
+			</div>
+			{block:PermalinkPage}{block:Caption}{Caption}{/block:Caption}{/block:PermalinkPage}
+			<p align="right"><a href="{Permalink}" class="notecount"><small>&hearts; {NoteCount}</small></a></p>
+			{block:PermalinkPage}{block:Date}<span class="tags" style="text-transform:uppercase;"><b>&hearts; {NoteCount}</b></span> {block:Tags}<a href="{TagURL}" class="tags">{Tag}</a> {/block:Tags}{/block:Date}{/block:PermalinkPage}
+			{block:PostNotes}<div class="notestop"><div id="notes">{PostNotes}</div></div>{/block:PostNotes}
+			</div>
+			{/block:Video}
+		</div>
+</div>
+{/block:Posts}
+{block:Pagination}
+	<div id="pagination" class="row-wide grey-border">
+		<div class="row">
+			<div class="large-6 small-6 columns older">
+				{block:PreviousPage}
+	                <a href="{PreviousPage}">older</a>
+	            {/block:PreviousPage}
+	        </div>
+	        <div class="large-6 small-6 columns newer">
+				{block:NextPage}
+	                <a href="{NextPage}">newer</a>
+	            {/block:NextPage}
+	        </div>
+	    </div>
+	</div>
+{/block:Pagination}
+{/block:IndexPage}
+	<div id="f2" class="row-wide">
+		<div class="row">
+			<div class="large-6 small-11 columns social">
+				<ul class="large-block-grid-8 small-block-grid-4">
+					{block:IfTwitterUsername}
+					<li>
+						<a href="http://www.twitter.com/{text:Twitter Username}">
+							<img src="http://www.squintongreen.com/dev/img/icn-twitter.svg" alt="Tiwtter icon" title="@posneg" />
+						</a>
+					</li>
+					{/block:IfTwitterUsername}
+					{block:IfDribbbleUsername}
+					<li>
+						<a href="http://www.dribbble.com/{text:Dribbble Username}">
+							<img src="http://www.squintongreen.com/dev/img/icn-dribbble.svg" alt="Dribbble icon" title="sqg on Dribbble" />
+						</a>
+					</li>
+					{/block:IfDribbbleUsername}
+					{block:IfBehanceUsername}
+					<li>
+						<a href="http://www.be.com/{text:Behance Username}">
+							<img src="http://www.squintongreen.com/dev/img/icn-behance.svg" alt="Behance icon" title="lost &amp; safe on Behance" />
+						</a>
+					</li>
+					{/block:IfBehanceUsername}
+					{block:IflastfmUsername}
+					<li>
+						<a href="http://www.last.fm/{text:lastfm Username}">
+							<img src="http://www.squintongreen.com/dev/img/icn-lastfm.svg" alt="last.fm icon" title="viktorvondoom on last.fm" />
+						</a>
+					</li>
+					{/block:IflastfmUsername}
+				</ul>
+			</div><!-- /social -->
+			{block:IfEmail}
+			<div class="large-6 small-11 columns contact">
+				<a class="right" href="{text:Email}" title="Email me nice things.">{text:Email}</a>
+			</div>
+			{/block:IfEmail}
+		</div>
+	</div><!-- /f2 -->
+</div><!-- /content -->
+<div id="navigation" class="row-wide">
+	<div id="header" class="row">
+		<div class="large-12 small-12 columns">
+			<a href="index.html">
+				<img src="http://www.squintongreen.com/dev/img/logo-shapes.svg" title="sqg" alt="s. quinton green logo" width="116px" height="36px" />
+			</a>
+			<a id="nav-close" class="close right" href="#">
+				<img src="http://www.squintongreen.com/dev/img/icn-close.svg" width="15" height="15" alt="a close icon" title="Close Navigation" />
+			</a>
+		</div>
+	</div>
+	<div id="selects" class="row">
+		<div class="large-12 small-12 columns">
+			<ul class="large-block-grid-5 small-block-grid-2">
+				<li>
+					<a class="works" href="#">
+						<h2>works</h2>
+					</a>
+				</li>
+				<li>
+					<a class="journal" href="/portfolio/dev/blog">
+						<h2>journal</h2>
+					</a>
+				</li>
+				<li>
+					<a class="stream" href="/portfolio/dev/blog/stream.html">
+						<h2>stream</h2>
+					</a>
+				</li>
+				<li>
+					<a class="contact" href="/portfolio/dev/contact.html">
+						<h2>contact</h2>
+					</a>
+				</li>
+				<li>
+					<a class="shop" href="#">
+						<h2>shop</h2>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-3 small-11 large-centered small-centered columns">
+			<p class="text-centered">email me</p>
+			<a class="button outline dark" href="mailto:hi@squintongreen.com" title="Email me nice things.">hi@squintongreen.com</a>
+		</div>
+	</div>
+</div><!-- /navigation -->
+
+
+  <script src="http://www.squintongreen.com/dev/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
