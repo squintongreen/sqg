@@ -133,6 +133,9 @@
      .mr2						{ margin-right: 2em; }
      .ml2						{ margin-left: 2em; }
 
+     .text.dark 				{ color: #1e2426; }
+     .text.mid 					{ color: #b0babf; }
+
 
 /* -----------------------------------------
    Home Styles
