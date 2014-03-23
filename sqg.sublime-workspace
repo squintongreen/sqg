@@ -76,34 +76,26 @@
 	"buffers":
 	[
 		{
-			"file": "dev/css/foundation.css",
+			"file": "css/app.css",
 			"settings":
 			{
-				"buffer_size": 31806,
+				"buffer_size": 21905,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/css/app.css",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 21824,
+				"buffer_size": 8069,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/index.html",
+			"file": "work.html",
 			"settings":
 			{
-				"buffer_size": 8119,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/profile.html",
-			"settings":
-			{
-				"buffer_size": 7483,
+				"buffer_size": 7308,
 				"line_ending": "Unix"
 			}
 		}
@@ -155,9 +147,13 @@
 	},
 	"file_history":
 	[
+		"/Library/WebServer/Documents/portfolio/dev/css/foundation.css",
+		"/Library/WebServer/Documents/portfolio/dev/css/app.css",
+		"/Library/WebServer/Documents/portfolio/dev/index.html",
+		"/Library/WebServer/Documents/portfolio/work.html",
+		"/Library/WebServer/Documents/portfolio/dev/profile.html",
 		"/Library/WebServer/Documents/portfolio/dev/modern.html",
 		"/Library/WebServer/Documents/portfolio/dev/css/flexslider.css",
-		"/Library/WebServer/Documents/portfolio/work.html",
 		"/Library/WebServer/Documents/portfolio/index.html",
 		"/Library/WebServer/Documents/portfolio/modern.html",
 		"/Library/WebServer/Documents/portfolio/dev/work.html",
@@ -169,7 +165,6 @@
 		"/Library/WebServer/Documents/portfolio/dev/blog/jawbone-up.html",
 		"/Library/WebServer/Documents/portfolio/dev/blog/ios7-beta1.html",
 		"/Users/Samuel/Dropbox/Writings/hidden_in_plain_sight.html",
-		"/Library/WebServer/Documents/portfolio/dev/index.html",
 		"/Library/WebServer/Documents/portfolio/dev/js/photosets.js",
 		"/Library/WebServer/Documents/portfolio/dev/blog/stream.html",
 		"/Users/Samuel/Sites/jacqueline/less/navs.less",
@@ -279,10 +274,7 @@
 		"/Users/Samuel/Dropbox/Sites/portfolio/javascripts/jquery.hoverIntent.min.js",
 		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/sub-testimonial.html",
 		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/req-service.html",
-		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/req-consult.html",
-		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/sub-survey.html",
-		"/Users/Samuel/Sites/mwb/template/mwb/themes.html",
-		"/Users/Samuel/Sites/mwb/_attachments/css/template_create.css"
+		"/Users/Samuel/Sites/mwb/_attachments/m/template-1/req-consult.html"
 	],
 	"find":
 	{
@@ -460,49 +452,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "dev/css/foundation.css",
+					"file": "css/app.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 31806,
+						"buffer_size": 21905,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29702,
-								29702
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "dev/css/app.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21824,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1503,
-								1503
+								5956,
+								5956
 							]
 						],
 						"settings":
@@ -511,7 +473,36 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 209.0,
+						"translation.y": 2566.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4120,
+								4120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1866.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -519,19 +510,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "dev/index.html",
+					"file": "work.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8119,
+						"buffer_size": 7308,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2475,
-								2475
+								1652,
+								1975
 							]
 						],
 						"settings":
@@ -540,39 +531,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1116.0,
+						"translation.y": 1068.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "dev/profile.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7483,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1080,
-								1080
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 251.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -710,7 +672,7 @@
 		[
 			[
 				"",
-				"/Library/WebServer/Documents/lume/lume.sublime-project"
+				"/Library/WebServer/Documents/clients/local-color/lc.sublime-project"
 			],
 			[
 				"lc",
